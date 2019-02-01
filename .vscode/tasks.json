@@ -1,0 +1,118 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build (Release)",
+            "type": "shell",
+            "promptOnClose": true,
+            "group": "build",
+            "windows": {
+                "command": "bash"
+            },
+            "linux": {
+                "command": "bash"
+            },
+            "args": [
+                "-c",
+                "'make'"
+            ],
+            "problemMatcher": [],
+            "options": {}
+        },
+        {
+            "label": "build & run (Release)",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "windows": {
+                "command": "bash"
+            },
+            "linux": {
+                "command": "bash"
+            },
+            "args": [
+                "-c",
+                "'make && make RunRelease'"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "build & run (Debug)",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "windows": {
+                "command": "bash"
+            },
+            "linux": {
+                "command": "bash"
+            },
+            "args": [
+                "-c",
+                "'make Debug && make RunDebug'"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "clean (Release)",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "windows": {
+                "command": "bash"
+            },
+            "linux": {
+                "command": "bash"
+            },
+            "args": [
+                "-c",
+                "'make CleanRelease'"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "clean (Debug)",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "windows": {
+                "command": "bash"
+            },
+            "linux": {
+                "command": "bash"
+            },
+            "args": [
+                "-c",
+                "'make CleanDebug'"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "clean (All)",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "windows": {
+                "command": "bash"
+            },
+            "linux": {
+                "command": "bash"
+            },
+            "args": [
+                "-c",
+                "'make clean'"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
