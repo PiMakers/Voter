@@ -14,7 +14,7 @@
             },
             "args": [
                 "-c",
-                "'make'"
+                "make"
             ],
             "problemMatcher": [],
             "options": {}
@@ -34,12 +34,12 @@
             },
             "args": [
                 "-c",
-                "'make && make RunRelease'"
+                "make && make RunRelease"
             ],
             "problemMatcher": []
         },
         {
-            "label": "build & run (Debug)",
+            "label": "build (Debug)",
             "type": "shell",
             "group": {
                 "kind": "build",
@@ -53,7 +53,7 @@
             },
             "args": [
                 "-c",
-                "'make Debug && make RunDebug'"
+                "'make Debug'"
             ],
             "problemMatcher": []
         },

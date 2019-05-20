@@ -1,0 +1,7 @@
+# ================
+# PiMakers (vscode)
+# ================
+
+.vscode/ipch
+obj
+bin/*

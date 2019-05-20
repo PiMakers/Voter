@@ -1,5 +1,5 @@
-/home/pimaker/OF/myApps/Szavazo/obj/linux64/Debug/addons/ofxIO/libs/lz4/src/lz4.o: \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/lz4/src/lz4.c \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/lz4/src/lz4.h
+/mnt/i/DataNTFS/OF/myGitHub/Voter/obj/linux64/Debug/addons/ofxIO/libs/lz4/src/lz4.o: \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/lz4/src/lz4.c \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/lz4/src/lz4.h
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/lz4/src/lz4.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/lz4/src/lz4.h:

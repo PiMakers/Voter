@@ -1,38 +1,38 @@
-/home/pimaker/OF/myApps/Szavazo/obj/linux64/Debug/addons/ofxIO/libs/ofxIO/src/DirectoryFilter.o: \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/src/DirectoryFilter.cpp \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryFilter.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Foundation.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Config.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform_POSIX.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Alignment.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Bugcheck.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Types.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Timestamp.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File_UNIX.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/AbstractTypes.h
+/mnt/i/DataNTFS/OF/myGitHub/Voter/obj/linux64/Debug/addons/ofxIO/libs/ofxIO/src/DirectoryFilter.o: \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/src/DirectoryFilter.cpp \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryFilter.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Foundation.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Config.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform_POSIX.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Alignment.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Bugcheck.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Types.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Timestamp.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File_UNIX.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/AbstractTypes.h
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryFilter.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryFilter.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Foundation.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Foundation.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Config.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Config.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform_POSIX.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform_POSIX.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Alignment.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Alignment.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Bugcheck.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Bugcheck.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Types.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Types.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Timestamp.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Timestamp.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File_UNIX.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File_UNIX.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/AbstractTypes.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/AbstractTypes.h:

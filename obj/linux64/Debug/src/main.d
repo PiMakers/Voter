@@ -1,325 +1,325 @@
 obj/linux64/Debug/src/main.o: \
- /home/pimaker/OF/myApps/Szavazo/src/main.cpp \
- /home/pimaker/OF/myApps/Szavazo/src/ofApp.h \
- ../../openFrameworks/libs/openFrameworks/ofMain.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofConstants.h \
- ../../openFrameworks/libs/tess2/include/tesselator.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofFileUtils.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofLog.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofSystemUtils.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofURLFileLoader.h \
- ../../openFrameworks/libs/openFrameworks/events/ofEvents.h \
- ../../openFrameworks/libs/openFrameworks/events/ofEventUtils.h \
- ../../openFrameworks/libs/openFrameworks/events/ofEvent.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofTimer.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofUtils.h \
- ../../openFrameworks/libs/utf8/include/utf8.h \
- ../../openFrameworks/libs/utf8/include/utf8/checked.h \
- ../../openFrameworks/libs/utf8/include/utf8/core.h \
- ../../openFrameworks/libs/utf8/include/utf8/unchecked.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofFpsCounter.h \
- ../../openFrameworks/libs/glm/include/glm/vec2.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_vec2.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_vec.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/precision.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/setup.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../simd/platform.h \
- ../../openFrameworks/libs/glm/include/glm/detail/type_int.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_vec2.inl \
- ../../openFrameworks/libs/openFrameworks/utils/ofThread.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofThreadChannel.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofJson.h \
- ../../openFrameworks/libs/json/include/json.hpp \
- ../../openFrameworks/libs/openFrameworks/types/ofParameter.h \
- ../../openFrameworks/libs/openFrameworks/types/ofPoint.h \
- ../../openFrameworks/libs/openFrameworks/math/ofVec3f.h \
- ../../openFrameworks/libs/openFrameworks/math/ofVec2f.h \
- ../../openFrameworks/libs/openFrameworks/math/ofMathConstants.h \
- ../../openFrameworks/libs/glm/include/glm/fwd.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_float.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_mat.hpp \
- ../../openFrameworks/libs/openFrameworks/math/ofVec4f.h \
- ../../openFrameworks/libs/glm/include/glm/vec4.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_vec4.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_vec4.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/type_vec4_simd.inl \
- ../../openFrameworks/libs/glm/include/glm/vec3.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_vec3.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_vec3.inl \
- ../../openFrameworks/libs/openFrameworks/types/ofColor.h \
- ../../openFrameworks/libs/glm/include/glm/common.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/func_common.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/_fixes.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/func_common.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/func_vector_relational.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/func_vector_relational.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/func_vector_relational_simd.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/_vectorize.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_vec1.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_vec1.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/func_common_simd.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../simd/common.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofXml.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofGraphicsBaseTypes.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofGraphicsConstants.h \
- ../../openFrameworks/libs/openFrameworks/types/ofTypes.h \
- ../../openFrameworks/libs/openFrameworks/types/ofRectangle.h \
- ../../openFrameworks/libs/openFrameworks/types/ofParameterGroup.h \
- ../../openFrameworks/libs/openFrameworks/math/ofMath.h \
- ../../openFrameworks/libs/glm/include/glm/gtc/constants.hpp \
- ../../openFrameworks/libs/glm/include/glm/gtc/constants.inl \
- ../../openFrameworks/libs/openFrameworks/math/ofVectorMath.h \
- ../../openFrameworks/libs/glm/include/glm/mat3x3.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_mat3x3.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_mat3x3.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/func_matrix.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../mat2x2.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x2.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x2.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../mat2x3.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x3.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x3.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../mat2x4.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x4.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x4.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../mat3x2.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x2.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x2.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../mat3x4.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x4.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x4.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../mat4x2.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x2.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x2.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../mat4x3.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x3.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x3.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../mat4x4.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4_simd.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/func_matrix.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../geometric.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential_simd.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/../simd/exponential.h \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric_simd.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../detail/../simd/geometric.h \
- ../../openFrameworks/libs/glm/include/glm/detail/func_matrix_simd.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../simd/matrix.h \
- ../../openFrameworks/libs/glm/include/glm/trigonometric.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/func_trigonometric.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/func_trigonometric.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/func_trigonometric_simd.inl \
- ../../openFrameworks/libs/glm/include/glm/exponential.hpp \
- ../../openFrameworks/libs/glm/include/glm/vector_relational.hpp \
- ../../openFrameworks/libs/glm/include/glm/ext.hpp \
- ../../openFrameworks/libs/glm/include/glm/glm.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/_fixes.hpp \
- ../../openFrameworks/libs/glm/include/glm/packing.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/func_packing.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/func_packing.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/type_half.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/type_half.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/func_packing_simd.inl \
- ../../openFrameworks/libs/glm/include/glm/matrix.hpp \
- ../../openFrameworks/libs/glm/include/glm/integer.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/func_integer.hpp \
- ../../openFrameworks/libs/glm/include/glm/detail/func_integer.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/func_integer_simd.inl \
- ../../openFrameworks/libs/glm/include/glm/detail/../simd/integer.h \
- ../../openFrameworks/libs/glm/include/glm/./gtc/bitfield.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/bitfield.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/color_space.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/color_space.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/epsilon.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/epsilon.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/quaternion.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/quaternion.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/quaternion_simd.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/functions.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/functions.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/integer.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/integer.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/matrix_access.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/matrix_access.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/matrix_integer.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/matrix_transform.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/matrix_transform.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/noise.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/../detail/_noise.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/noise.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/packing.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/type_precision.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/../gtc/vec1.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/../gtc/vec1.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/type_precision.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/packing.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/random.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/random.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/reciprocal.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/reciprocal.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/round.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/round.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/type_ptr.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/type_ptr.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/ulp.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtc/ulp.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtc/type_aligned.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/associated_min_max.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/associated_min_max.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/bit.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/bit.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/closest_point.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/closest_point.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/color_space.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/color_space.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/color_space_YCoCg.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/color_space_YCoCg.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/compatibility.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/compatibility.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/component_wise.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/component_wise.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/dual_quaternion.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/dual_quaternion.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/euler_angles.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/euler_angles.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/extend.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/extend.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/extended_min_max.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/extended_min_max.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/fast_exponential.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/fast_exponential.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/fast_square_root.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/fast_square_root.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/fast_trigonometry.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/fast_trigonometry.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/gradient_paint.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/optimum_pow.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/optimum_pow.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/gradient_paint.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/handed_coordinate_space.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/handed_coordinate_space.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/integer.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/integer.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/intersect.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/vector_query.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/vector_query.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/intersect.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/log_base.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/log_base.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/matrix_cross_product.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/matrix_cross_product.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/matrix_interpolation.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/matrix_interpolation.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/matrix_major_storage.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/matrix_major_storage.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/matrix_operation.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/matrix_operation.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/matrix_query.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/matrix_query.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/mixed_product.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/mixed_product.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/norm.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/quaternion.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/quaternion.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/norm.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/normal.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/normal.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/normalize_dot.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/normalize_dot.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/number_precision.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/number_precision.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/orthonormalize.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/orthonormalize.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/perpendicular.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/projection.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/projection.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/perpendicular.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/polar_coordinates.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/polar_coordinates.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/raw_data.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/raw_data.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/rotate_vector.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/transform.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/transform.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/rotate_vector.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/spline.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/spline.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/std_based_type.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/std_based_type.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/string_cast.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/string_cast.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/transform2.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/transform2.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/vector_angle.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/vector_angle.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/wrap.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/wrap.inl \
- ../../openFrameworks/libs/glm/include/glm/./gtx/scalar_multiplication.hpp \
- ../../openFrameworks/libs/glm/include/glm/./gtx/range.hpp \
- ../../openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h \
- ../../openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h \
- ../../openFrameworks/libs/openFrameworks/math/ofQuaternion.h \
- ../../openFrameworks/libs/openFrameworks/communication/ofSerial.h \
- ../../openFrameworks/libs/openFrameworks/communication/ofArduino.h \
- ../../openFrameworks/libs/openFrameworks/gl/ofFbo.h \
- ../../openFrameworks/libs/openFrameworks/gl/ofTexture.h \
- ../../openFrameworks/libs/openFrameworks/gl/ofGLBaseTypes.h \
- ../../openFrameworks/libs/openFrameworks/gl/ofGLRenderer.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofPolyline.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofPolyline.inl \
- ../../openFrameworks/libs/openFrameworks/app/ofAppRunner.h \
- ../../openFrameworks/libs/openFrameworks/app/ofWindowSettings.h \
- ../../openFrameworks/libs/openFrameworks/app/ofMainLoop.h \
- ../../openFrameworks/libs/openFrameworks/graphics/of3dGraphics.h \
- ../../openFrameworks/libs/openFrameworks/3d/of3dPrimitives.h \
- ../../openFrameworks/libs/openFrameworks/3d/ofMesh.h \
- ../../openFrameworks/libs/openFrameworks/gl/ofGLUtils.h \
- ../../openFrameworks/libs/openFrameworks/3d/ofMesh.inl \
- ../../openFrameworks/libs/openFrameworks/3d/ofNode.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofBitmapFont.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofPixels.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofGraphics.h \
- ../../openFrameworks/libs/openFrameworks/utils/ofMatrixStack.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofPath.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofPolyline.h \
- ../../openFrameworks/libs/openFrameworks/gl/ofVboMesh.h \
- ../../openFrameworks/libs/openFrameworks/3d/ofMesh.h \
- ../../openFrameworks/libs/openFrameworks/gl/ofVbo.h \
- ../../openFrameworks/libs/openFrameworks/gl/ofBufferObject.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofTessellator.h \
- ../../openFrameworks/libs/openFrameworks/gl/ofLight.h \
- ../../openFrameworks/libs/openFrameworks/gl/ofMaterial.h \
- ../../openFrameworks/libs/openFrameworks/gl/ofShader.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofCairoRenderer.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/src/main.cpp \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/src/ofApp.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/ofMain.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofConstants.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/tess2/include/tesselator.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofFileUtils.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofLog.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofSystemUtils.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofURLFileLoader.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/events/ofEvents.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/events/ofEventUtils.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/events/ofEvent.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofTimer.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofUtils.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/utf8/include/utf8.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/utf8/include/utf8/checked.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/utf8/include/utf8/core.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/utf8/include/utf8/unchecked.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofFpsCounter.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/vec2.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec2.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/precision.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/setup.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../simd/platform.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_int.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec2.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofThread.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofThreadChannel.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofJson.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/json/include/json.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofParameter.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofPoint.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofVec3f.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofVec2f.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofMathConstants.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/fwd.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_float.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_mat.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofVec4f.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/vec4.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec4.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec4.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec4_simd.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/vec3.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec3.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec3.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofColor.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/common.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_common.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/_fixes.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_common.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_vector_relational.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_vector_relational.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_vector_relational_simd.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/_vectorize.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec1.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec1.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_common_simd.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../simd/common.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofXml.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofGraphicsBaseTypes.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofGraphicsConstants.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofTypes.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofRectangle.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofParameterGroup.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofMath.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/gtc/constants.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/gtc/constants.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofVectorMath.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/mat3x3.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_mat3x3.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_mat3x3.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_matrix.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat2x2.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x2.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x2.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat2x3.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x3.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x3.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat2x4.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x4.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x4.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat3x2.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x2.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x2.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat3x4.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x4.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x4.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat4x2.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x2.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x2.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat4x3.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x3.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x3.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat4x4.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4_simd.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_matrix.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../geometric.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential_simd.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/../simd/exponential.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric_simd.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/../simd/geometric.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_matrix_simd.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../simd/matrix.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/trigonometric.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_trigonometric.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_trigonometric.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_trigonometric_simd.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/exponential.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/vector_relational.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/ext.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/glm.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/_fixes.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/packing.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_packing.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_packing.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_half.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_half.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_packing_simd.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/matrix.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/integer.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_integer.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_integer.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_integer_simd.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../simd/integer.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/bitfield.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/bitfield.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/color_space.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/color_space.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/epsilon.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/epsilon.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/quaternion.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/quaternion.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/quaternion_simd.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/functions.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/functions.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/integer.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/integer.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_access.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_access.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_integer.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_transform.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_transform.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/noise.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/../detail/_noise.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/noise.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/packing.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/type_precision.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/../gtc/vec1.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/../gtc/vec1.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/type_precision.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/packing.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/random.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/random.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/reciprocal.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/reciprocal.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/round.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/round.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/type_ptr.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/type_ptr.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/ulp.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/ulp.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/type_aligned.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/associated_min_max.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/associated_min_max.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/bit.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/bit.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/closest_point.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/closest_point.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/color_space.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/color_space.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/color_space_YCoCg.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/color_space_YCoCg.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/compatibility.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/compatibility.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/component_wise.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/component_wise.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/dual_quaternion.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/dual_quaternion.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/euler_angles.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/euler_angles.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/extend.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/extend.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/extended_min_max.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/extended_min_max.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_exponential.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_exponential.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_square_root.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_square_root.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_trigonometry.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_trigonometry.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/gradient_paint.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/optimum_pow.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/optimum_pow.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/gradient_paint.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/handed_coordinate_space.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/handed_coordinate_space.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/integer.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/integer.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/intersect.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/vector_query.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/vector_query.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/intersect.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/log_base.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/log_base.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_cross_product.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_cross_product.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_interpolation.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_interpolation.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_major_storage.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_major_storage.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_operation.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_operation.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_query.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_query.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/mixed_product.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/mixed_product.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/norm.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/quaternion.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/quaternion.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/norm.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/normal.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/normal.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/normalize_dot.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/normalize_dot.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/number_precision.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/number_precision.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/orthonormalize.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/orthonormalize.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/perpendicular.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/projection.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/projection.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/perpendicular.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/polar_coordinates.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/polar_coordinates.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/raw_data.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/raw_data.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/rotate_vector.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/transform.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/transform.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/rotate_vector.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/spline.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/spline.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/std_based_type.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/std_based_type.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/string_cast.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/string_cast.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/transform2.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/transform2.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/vector_angle.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/vector_angle.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/wrap.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/wrap.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/scalar_multiplication.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/range.hpp \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofQuaternion.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/communication/ofSerial.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/communication/ofArduino.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofFbo.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofTexture.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofGLBaseTypes.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofGLRenderer.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofPolyline.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofPolyline.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofAppRunner.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofWindowSettings.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofMainLoop.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/of3dGraphics.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/of3dPrimitives.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofMesh.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofMesh.inl \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofNode.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofBitmapFont.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofPixels.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofMatrixStack.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofPath.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofPolyline.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofVboMesh.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofMesh.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofVbo.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofBufferObject.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofTessellator.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofLight.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofMaterial.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofShader.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofCairoRenderer.h \
  /usr/include/cairo/cairo.h /usr/include/cairo/cairo-version.h \
  /usr/include/cairo/cairo-features.h \
  /usr/include/cairo/cairo-deprecated.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofImage.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofRendererCollection.h \
- ../../openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h \
- ../../openFrameworks/libs/openFrameworks/app/ofBaseApp.h \
- ../../openFrameworks/libs/openFrameworks/sound/ofSoundBaseTypes.h \
- ../../openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h \
- ../../openFrameworks/libs/openFrameworks/app/ofAppGLFWWindow.h \
- ../../openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h \
- ../../openFrameworks/libs/openFrameworks/sound/ofSoundStream.h \
- ../../openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h \
- ../../openFrameworks/libs/openFrameworks/sound/ofOpenALSoundPlayer.h \
- ../../openFrameworks/libs/kiss/include/kiss_fft.h \
- ../../openFrameworks/libs/kiss/include/kiss_fftr.h \
- ../../openFrameworks/libs/kiss/include/kiss_fft.h \
- ../../openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h \
- ../../openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h \
- ../../openFrameworks/libs/openFrameworks/video/ofVideoBaseTypes.h \
- ../../openFrameworks/libs/openFrameworks/video/ofGstVideoGrabber.h \
- ../../openFrameworks/libs/openFrameworks/video/ofGstUtils.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofImage.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofRendererCollection.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofBaseApp.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/sound/ofSoundBaseTypes.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofAppGLFWWindow.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/sound/ofSoundStream.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/sound/ofOpenALSoundPlayer.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/kiss/include/kiss_fft.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/kiss/include/kiss_fftr.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/kiss/include/kiss_fft.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofVideoBaseTypes.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofGstVideoGrabber.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofGstUtils.h \
  /usr/include/gstreamer-1.0/gst/gst.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
@@ -514,704 +514,704 @@ obj/linux64/Debug/src/main.o: \
  /usr/include/gstreamer-1.0/gst/video/video-overlay-composition.h \
  /usr/include/gstreamer-1.0/gst/video/videooverlay.h \
  /usr/include/gstreamer-1.0/gst/video/gstvideoaffinetransformationmeta.h \
- ../../openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h \
- ../../openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h \
- ../../openFrameworks/libs/openFrameworks/3d/of3dUtils.h \
- ../../openFrameworks/libs/openFrameworks/3d/ofCamera.h \
- ../../openFrameworks/libs/openFrameworks/3d/ofEasyCam.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxHID/src/ofxHID.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/src/ofxIO.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FileStream.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Foundation.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Config.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform_POSIX.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Alignment.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Bugcheck.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Types.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FileStream_POSIX.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BufferedBidirectionalStreamBuf.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BufferAllocator.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/StreamUtil.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/DirectoryWatcher.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Exception.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Timestamp.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File_UNIX.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BasicEvent.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractEvent.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SingletonHolder.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Mutex.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ScopedLock.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Mutex_POSIX.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SharedPtr.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AtomicCounter.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveResult.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Event.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Event_POSIX.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/RefCountedObject.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveMethod.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveRunnable.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Runnable.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AutoPtr.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveStarter.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ThreadPool.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Thread.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Thread_POSIX.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SignalHandler.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/DefaultStrategy.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/NotificationStrategy.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractDelegate.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIterator.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Path.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIteratorImpl.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIteratorStategies.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/DirectoryIterator.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/LRUCache.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/AbstractCache.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/KeyValueArgs.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ValidArgs.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FIFOEvent.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FIFOStrategy.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/EventArgs.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Delegate.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FunctionDelegate.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Expire.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/LRUStrategy.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractStrategy.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/AbstractTypes.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Base64Encoding.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBuffer.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferUtils.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferReader.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferStream.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/UnbufferedStreamBuf.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferWriter.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/COBSEncoding.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/SLIPEncoding.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Compression.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DeviceFilter.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryUtils.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryFilter.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryWatcherManager.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/FileExtensionFilter.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/String.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Ascii.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/UTF8String.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/HexBinaryEncoding.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/HiddenFileFilter.h \
- /home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/RegularExpression.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ImageUtils.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/JSONUtils.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/LinkFilter.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/PathFilterCollection.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/RegexPathFilter.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/SearchPath.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Thread.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/PollingThread.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ThreadChannel.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ThreadsafeLoggerChannel.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/URIEncoding.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDevice.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxHID/libs/hidapi/include/hidapi/hidapi.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceInfo.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceUtils.h
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/of3dUtils.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofCamera.h \
+ /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/src/ofxHID.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/src/ofxIO.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FileStream.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Foundation.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Config.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform_POSIX.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Alignment.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Bugcheck.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Types.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FileStream_POSIX.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BufferedBidirectionalStreamBuf.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BufferAllocator.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/StreamUtil.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/DirectoryWatcher.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Exception.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Timestamp.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File_UNIX.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BasicEvent.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractEvent.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SingletonHolder.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Mutex.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ScopedLock.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Mutex_POSIX.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SharedPtr.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AtomicCounter.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveResult.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Event.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Event_POSIX.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/RefCountedObject.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveMethod.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveRunnable.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Runnable.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AutoPtr.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveStarter.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ThreadPool.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Thread.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Thread_POSIX.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SignalHandler.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/DefaultStrategy.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/NotificationStrategy.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractDelegate.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIterator.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Path.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIteratorImpl.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIteratorStategies.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/DirectoryIterator.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/LRUCache.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/AbstractCache.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/KeyValueArgs.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ValidArgs.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FIFOEvent.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FIFOStrategy.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/EventArgs.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Delegate.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FunctionDelegate.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Expire.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/LRUStrategy.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractStrategy.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/AbstractTypes.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Base64Encoding.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBuffer.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferUtils.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferReader.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferStream.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/UnbufferedStreamBuf.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferWriter.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/COBSEncoding.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/SLIPEncoding.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Compression.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DeviceFilter.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryUtils.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryFilter.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryWatcherManager.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/FileExtensionFilter.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/String.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Ascii.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/UTF8String.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/HexBinaryEncoding.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/HiddenFileFilter.h \
+ /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/RegularExpression.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ImageUtils.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/JSONUtils.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/LinkFilter.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/PathFilterCollection.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/RegexPathFilter.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/SearchPath.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Thread.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/PollingThread.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ThreadChannel.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ThreadsafeLoggerChannel.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/URIEncoding.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDevice.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/hidapi/include/hidapi/hidapi.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceInfo.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceUtils.h
 
-/home/pimaker/OF/myApps/Szavazo/src/ofApp.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/src/ofApp.h:
 
-../../openFrameworks/libs/openFrameworks/ofMain.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/ofMain.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofConstants.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofConstants.h:
 
-../../openFrameworks/libs/tess2/include/tesselator.h:
+/mnt/LinuxData/OF/openFrameworks/libs/tess2/include/tesselator.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofFileUtils.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofFileUtils.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofLog.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofLog.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofSystemUtils.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofSystemUtils.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofURLFileLoader.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofURLFileLoader.h:
 
-../../openFrameworks/libs/openFrameworks/events/ofEvents.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/events/ofEvents.h:
 
-../../openFrameworks/libs/openFrameworks/events/ofEventUtils.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/events/ofEventUtils.h:
 
-../../openFrameworks/libs/openFrameworks/events/ofEvent.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/events/ofEvent.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofTimer.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofTimer.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofUtils.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofUtils.h:
 
-../../openFrameworks/libs/utf8/include/utf8.h:
+/mnt/LinuxData/OF/openFrameworks/libs/utf8/include/utf8.h:
 
-../../openFrameworks/libs/utf8/include/utf8/checked.h:
+/mnt/LinuxData/OF/openFrameworks/libs/utf8/include/utf8/checked.h:
 
-../../openFrameworks/libs/utf8/include/utf8/core.h:
+/mnt/LinuxData/OF/openFrameworks/libs/utf8/include/utf8/core.h:
 
-../../openFrameworks/libs/utf8/include/utf8/unchecked.h:
+/mnt/LinuxData/OF/openFrameworks/libs/utf8/include/utf8/unchecked.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofFpsCounter.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofFpsCounter.h:
 
-../../openFrameworks/libs/glm/include/glm/vec2.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/vec2.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_vec2.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec2.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_vec.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/precision.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/precision.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/setup.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/setup.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../simd/platform.h:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../simd/platform.h:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_int.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_int.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_vec2.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec2.inl:
 
-../../openFrameworks/libs/openFrameworks/utils/ofThread.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofThread.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofThreadChannel.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofThreadChannel.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofJson.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofJson.h:
 
-../../openFrameworks/libs/json/include/json.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/json/include/json.hpp:
 
-../../openFrameworks/libs/openFrameworks/types/ofParameter.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofParameter.h:
 
-../../openFrameworks/libs/openFrameworks/types/ofPoint.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofPoint.h:
 
-../../openFrameworks/libs/openFrameworks/math/ofVec3f.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofVec3f.h:
 
-../../openFrameworks/libs/openFrameworks/math/ofVec2f.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofVec2f.h:
 
-../../openFrameworks/libs/openFrameworks/math/ofMathConstants.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofMathConstants.h:
 
-../../openFrameworks/libs/glm/include/glm/fwd.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/fwd.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_float.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_float.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_mat.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_mat.hpp:
 
-../../openFrameworks/libs/openFrameworks/math/ofVec4f.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofVec4f.h:
 
-../../openFrameworks/libs/glm/include/glm/vec4.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/vec4.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_vec4.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec4.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_vec4.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec4.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_vec4_simd.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec4_simd.inl:
 
-../../openFrameworks/libs/glm/include/glm/vec3.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/vec3.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_vec3.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec3.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_vec3.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec3.inl:
 
-../../openFrameworks/libs/openFrameworks/types/ofColor.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofColor.h:
 
-../../openFrameworks/libs/glm/include/glm/common.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/common.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_common.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_common.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/_fixes.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/_fixes.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_common.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_common.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_vector_relational.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_vector_relational.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_vector_relational.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_vector_relational.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_vector_relational_simd.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_vector_relational_simd.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/_vectorize.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/_vectorize.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_vec1.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec1.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_vec1.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_vec1.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_common_simd.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_common_simd.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../simd/common.h:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../simd/common.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofXml.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofXml.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofGraphicsBaseTypes.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofGraphicsBaseTypes.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofGraphicsConstants.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofGraphicsConstants.h:
 
-../../openFrameworks/libs/openFrameworks/types/ofTypes.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofTypes.h:
 
-../../openFrameworks/libs/openFrameworks/types/ofRectangle.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofRectangle.h:
 
-../../openFrameworks/libs/openFrameworks/types/ofParameterGroup.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/types/ofParameterGroup.h:
 
-../../openFrameworks/libs/openFrameworks/math/ofMath.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofMath.h:
 
-../../openFrameworks/libs/glm/include/glm/gtc/constants.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/gtc/constants.hpp:
 
-../../openFrameworks/libs/glm/include/glm/gtc/constants.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/gtc/constants.inl:
 
-../../openFrameworks/libs/openFrameworks/math/ofVectorMath.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofVectorMath.h:
 
-../../openFrameworks/libs/glm/include/glm/mat3x3.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/mat3x3.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_mat3x3.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_mat3x3.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_mat3x3.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_mat3x3.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_matrix.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_matrix.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../mat2x2.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat2x2.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x2.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x2.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x2.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x2.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../mat2x3.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat2x3.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x3.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x3.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x3.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x3.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../mat2x4.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat2x4.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x4.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x4.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x4.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat2x4.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../mat3x2.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat3x2.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x2.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x2.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x2.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x2.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../mat3x4.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat3x4.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x4.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x4.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x4.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat3x4.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../mat4x2.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat4x2.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x2.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x2.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x2.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x2.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../mat4x3.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat4x3.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x3.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x3.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x3.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x3.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../mat4x4.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../mat4x4.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4_simd.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/type_mat4x4_simd.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_matrix.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_matrix.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../geometric.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../geometric.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential_simd.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_exponential_simd.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/../simd/exponential.h:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/../simd/exponential.h:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric_simd.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/func_geometric_simd.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../detail/../simd/geometric.h:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../detail/../simd/geometric.h:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_matrix_simd.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_matrix_simd.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../simd/matrix.h:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../simd/matrix.h:
 
-../../openFrameworks/libs/glm/include/glm/trigonometric.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/trigonometric.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_trigonometric.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_trigonometric.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_trigonometric.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_trigonometric.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_trigonometric_simd.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_trigonometric_simd.inl:
 
-../../openFrameworks/libs/glm/include/glm/exponential.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/exponential.hpp:
 
-../../openFrameworks/libs/glm/include/glm/vector_relational.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/vector_relational.hpp:
 
-../../openFrameworks/libs/glm/include/glm/ext.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/ext.hpp:
 
-../../openFrameworks/libs/glm/include/glm/glm.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/glm.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/_fixes.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/_fixes.hpp:
 
-../../openFrameworks/libs/glm/include/glm/packing.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/packing.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_packing.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_packing.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_packing.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_packing.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_half.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_half.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/type_half.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/type_half.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_packing_simd.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_packing_simd.inl:
 
-../../openFrameworks/libs/glm/include/glm/matrix.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/matrix.hpp:
 
-../../openFrameworks/libs/glm/include/glm/integer.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/integer.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_integer.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_integer.hpp:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_integer.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_integer.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/func_integer_simd.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/func_integer_simd.inl:
 
-../../openFrameworks/libs/glm/include/glm/detail/../simd/integer.h:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/detail/../simd/integer.h:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/bitfield.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/bitfield.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/bitfield.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/bitfield.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/color_space.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/color_space.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/color_space.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/color_space.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/epsilon.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/epsilon.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/epsilon.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/epsilon.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/quaternion.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/quaternion.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/quaternion.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/quaternion.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/quaternion_simd.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/quaternion_simd.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/functions.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/functions.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/functions.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/functions.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/integer.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/integer.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/integer.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/integer.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/matrix_access.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_access.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/matrix_access.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_access.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/matrix_integer.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_integer.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_inverse.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/matrix_transform.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_transform.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/matrix_transform.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/matrix_transform.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/noise.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/noise.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/../detail/_noise.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/../detail/_noise.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/noise.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/noise.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/packing.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/packing.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/type_precision.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/type_precision.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/../gtc/vec1.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/../gtc/vec1.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/../gtc/vec1.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/../gtc/vec1.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/type_precision.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/type_precision.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/packing.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/packing.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/random.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/random.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/random.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/random.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/reciprocal.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/reciprocal.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/reciprocal.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/reciprocal.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/round.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/round.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/round.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/round.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/type_ptr.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/type_ptr.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/type_ptr.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/type_ptr.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/ulp.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/ulp.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/ulp.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/ulp.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtc/type_aligned.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtc/type_aligned.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/associated_min_max.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/associated_min_max.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/associated_min_max.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/associated_min_max.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/bit.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/bit.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/bit.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/bit.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/closest_point.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/closest_point.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/closest_point.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/closest_point.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/color_space.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/color_space.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/color_space.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/color_space.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/color_space_YCoCg.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/color_space_YCoCg.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/color_space_YCoCg.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/color_space_YCoCg.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/compatibility.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/compatibility.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/compatibility.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/compatibility.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/component_wise.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/component_wise.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/component_wise.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/component_wise.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/dual_quaternion.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/dual_quaternion.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/dual_quaternion.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/dual_quaternion.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/euler_angles.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/euler_angles.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/euler_angles.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/euler_angles.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/extend.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/extend.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/extend.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/extend.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/extended_min_max.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/extended_min_max.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/extended_min_max.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/extended_min_max.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/fast_exponential.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_exponential.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/fast_exponential.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_exponential.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/fast_square_root.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_square_root.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/fast_square_root.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_square_root.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/fast_trigonometry.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_trigonometry.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/fast_trigonometry.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/fast_trigonometry.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/gradient_paint.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/gradient_paint.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/optimum_pow.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/optimum_pow.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/optimum_pow.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/optimum_pow.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/gradient_paint.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/gradient_paint.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/handed_coordinate_space.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/handed_coordinate_space.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/handed_coordinate_space.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/handed_coordinate_space.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/integer.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/integer.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/integer.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/integer.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/intersect.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/intersect.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/vector_query.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/vector_query.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/vector_query.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/vector_query.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/intersect.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/intersect.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/log_base.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/log_base.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/log_base.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/log_base.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/matrix_cross_product.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_cross_product.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/matrix_cross_product.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_cross_product.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/matrix_interpolation.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_interpolation.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/matrix_interpolation.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_interpolation.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/matrix_major_storage.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_major_storage.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/matrix_major_storage.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_major_storage.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/matrix_operation.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_operation.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/matrix_operation.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_operation.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/matrix_query.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_query.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/matrix_query.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/matrix_query.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/mixed_product.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/mixed_product.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/mixed_product.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/mixed_product.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/norm.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/norm.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/quaternion.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/quaternion.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/quaternion.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/quaternion.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/norm.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/norm.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/normal.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/normal.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/normal.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/normal.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/normalize_dot.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/normalize_dot.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/normalize_dot.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/normalize_dot.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/number_precision.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/number_precision.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/number_precision.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/number_precision.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/orthonormalize.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/orthonormalize.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/orthonormalize.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/orthonormalize.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/perpendicular.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/perpendicular.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/projection.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/projection.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/projection.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/projection.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/perpendicular.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/perpendicular.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/polar_coordinates.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/polar_coordinates.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/polar_coordinates.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/polar_coordinates.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/raw_data.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/raw_data.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/raw_data.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/raw_data.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/rotate_vector.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/rotate_vector.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/transform.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/transform.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/../gtx/transform.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/../gtx/transform.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/rotate_vector.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/rotate_vector.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/spline.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/spline.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/spline.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/spline.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/std_based_type.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/std_based_type.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/std_based_type.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/std_based_type.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/string_cast.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/string_cast.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/string_cast.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/string_cast.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/transform2.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/transform2.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/transform2.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/transform2.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/vector_angle.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/vector_angle.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/vector_angle.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/vector_angle.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/wrap.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/wrap.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/wrap.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/wrap.inl:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/scalar_multiplication.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/scalar_multiplication.hpp:
 
-../../openFrameworks/libs/glm/include/glm/./gtx/range.hpp:
+/mnt/LinuxData/OF/openFrameworks/libs/glm/include/glm/./gtx/range.hpp:
 
-../../openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofMatrix3x3.h:
 
-../../openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofMatrix4x4.h:
 
-../../openFrameworks/libs/openFrameworks/math/ofQuaternion.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/math/ofQuaternion.h:
 
-../../openFrameworks/libs/openFrameworks/communication/ofSerial.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/communication/ofSerial.h:
 
-../../openFrameworks/libs/openFrameworks/communication/ofArduino.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/communication/ofArduino.h:
 
-../../openFrameworks/libs/openFrameworks/gl/ofFbo.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofFbo.h:
 
-../../openFrameworks/libs/openFrameworks/gl/ofTexture.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofTexture.h:
 
-../../openFrameworks/libs/openFrameworks/gl/ofGLBaseTypes.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofGLBaseTypes.h:
 
-../../openFrameworks/libs/openFrameworks/gl/ofGLRenderer.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofGLRenderer.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofPolyline.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofPolyline.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofPolyline.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofPolyline.inl:
 
-../../openFrameworks/libs/openFrameworks/app/ofAppRunner.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofAppRunner.h:
 
-../../openFrameworks/libs/openFrameworks/app/ofWindowSettings.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofWindowSettings.h:
 
-../../openFrameworks/libs/openFrameworks/app/ofMainLoop.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofMainLoop.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/of3dGraphics.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/of3dGraphics.h:
 
-../../openFrameworks/libs/openFrameworks/3d/of3dPrimitives.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/of3dPrimitives.h:
 
-../../openFrameworks/libs/openFrameworks/3d/ofMesh.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofMesh.h:
 
-../../openFrameworks/libs/openFrameworks/gl/ofGLUtils.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofGLUtils.h:
 
-../../openFrameworks/libs/openFrameworks/3d/ofMesh.inl:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofMesh.inl:
 
-../../openFrameworks/libs/openFrameworks/3d/ofNode.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofNode.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofBitmapFont.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofBitmapFont.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofPixels.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofPixels.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofGraphics.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofGraphics.h:
 
-../../openFrameworks/libs/openFrameworks/utils/ofMatrixStack.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/utils/ofMatrixStack.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofPath.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofPath.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofPolyline.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofPolyline.h:
 
-../../openFrameworks/libs/openFrameworks/gl/ofVboMesh.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofVboMesh.h:
 
-../../openFrameworks/libs/openFrameworks/3d/ofMesh.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofMesh.h:
 
-../../openFrameworks/libs/openFrameworks/gl/ofVbo.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofVbo.h:
 
-../../openFrameworks/libs/openFrameworks/gl/ofBufferObject.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofBufferObject.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofTessellator.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofTessellator.h:
 
-../../openFrameworks/libs/openFrameworks/gl/ofLight.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofLight.h:
 
-../../openFrameworks/libs/openFrameworks/gl/ofMaterial.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofMaterial.h:
 
-../../openFrameworks/libs/openFrameworks/gl/ofShader.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/gl/ofShader.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofCairoRenderer.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofCairoRenderer.h:
 
 /usr/include/cairo/cairo.h:
 
@@ -1221,43 +1221,43 @@ obj/linux64/Debug/src/main.o: \
 
 /usr/include/cairo/cairo-deprecated.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofImage.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofImage.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofRendererCollection.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofRendererCollection.h:
 
-../../openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/graphics/ofTrueTypeFont.h:
 
-../../openFrameworks/libs/openFrameworks/app/ofBaseApp.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofBaseApp.h:
 
-../../openFrameworks/libs/openFrameworks/sound/ofSoundBaseTypes.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/sound/ofSoundBaseTypes.h:
 
-../../openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofAppBaseWindow.h:
 
-../../openFrameworks/libs/openFrameworks/app/ofAppGLFWWindow.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofAppGLFWWindow.h:
 
-../../openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/app/ofAppGlutWindow.h:
 
-../../openFrameworks/libs/openFrameworks/sound/ofSoundStream.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/sound/ofSoundStream.h:
 
-../../openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/sound/ofSoundPlayer.h:
 
-../../openFrameworks/libs/openFrameworks/sound/ofOpenALSoundPlayer.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/sound/ofOpenALSoundPlayer.h:
 
-../../openFrameworks/libs/kiss/include/kiss_fft.h:
+/mnt/LinuxData/OF/openFrameworks/libs/kiss/include/kiss_fft.h:
 
-../../openFrameworks/libs/kiss/include/kiss_fftr.h:
+/mnt/LinuxData/OF/openFrameworks/libs/kiss/include/kiss_fftr.h:
 
-../../openFrameworks/libs/kiss/include/kiss_fft.h:
+/mnt/LinuxData/OF/openFrameworks/libs/kiss/include/kiss_fft.h:
 
-../../openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/sound/ofSoundBuffer.h:
 
-../../openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofVideoGrabber.h:
 
-../../openFrameworks/libs/openFrameworks/video/ofVideoBaseTypes.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofVideoBaseTypes.h:
 
-../../openFrameworks/libs/openFrameworks/video/ofGstVideoGrabber.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofGstVideoGrabber.h:
 
-../../openFrameworks/libs/openFrameworks/video/ofGstUtils.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofGstUtils.h:
 
 /usr/include/gstreamer-1.0/gst/gst.h:
 
@@ -1677,206 +1677,206 @@ obj/linux64/Debug/src/main.o: \
 
 /usr/include/gstreamer-1.0/gst/video/gstvideoaffinetransformationmeta.h:
 
-../../openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofVideoPlayer.h:
 
-../../openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/video/ofGstVideoPlayer.h:
 
-../../openFrameworks/libs/openFrameworks/3d/of3dUtils.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/of3dUtils.h:
 
-../../openFrameworks/libs/openFrameworks/3d/ofCamera.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofCamera.h:
 
-../../openFrameworks/libs/openFrameworks/3d/ofEasyCam.h:
+/mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxHID/src/ofxHID.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/src/ofxHID.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/src/ofxIO.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/src/ofxIO.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FileStream.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FileStream.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Foundation.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Foundation.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Config.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Config.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform_POSIX.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Platform_POSIX.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Alignment.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Alignment.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Bugcheck.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Bugcheck.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Types.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Types.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FileStream_POSIX.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FileStream_POSIX.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BufferedBidirectionalStreamBuf.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BufferedBidirectionalStreamBuf.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BufferAllocator.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BufferAllocator.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/StreamUtil.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/StreamUtil.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/DirectoryWatcher.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/DirectoryWatcher.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Exception.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Exception.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Timestamp.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Timestamp.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File_UNIX.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/File_UNIX.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BasicEvent.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/BasicEvent.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractEvent.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractEvent.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SingletonHolder.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SingletonHolder.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Mutex.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Mutex.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ScopedLock.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ScopedLock.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Mutex_POSIX.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Mutex_POSIX.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SharedPtr.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SharedPtr.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AtomicCounter.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AtomicCounter.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveResult.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveResult.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Event.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Event.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Event_POSIX.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Event_POSIX.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/RefCountedObject.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/RefCountedObject.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveMethod.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveMethod.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveRunnable.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveRunnable.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Runnable.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Runnable.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AutoPtr.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AutoPtr.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveStarter.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ActiveStarter.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ThreadPool.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ThreadPool.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Thread.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Thread.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Thread_POSIX.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Thread_POSIX.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SignalHandler.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/SignalHandler.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/DefaultStrategy.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/DefaultStrategy.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/NotificationStrategy.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/NotificationStrategy.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractDelegate.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractDelegate.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIterator.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIterator.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Path.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Path.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIteratorImpl.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIteratorImpl.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIteratorStategies.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/RecursiveDirectoryIteratorStategies.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/DirectoryIterator.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/DirectoryIterator.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/LRUCache.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/LRUCache.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/AbstractCache.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/AbstractCache.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/KeyValueArgs.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/KeyValueArgs.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ValidArgs.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/ValidArgs.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FIFOEvent.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FIFOEvent.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FIFOStrategy.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FIFOStrategy.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/EventArgs.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/EventArgs.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Delegate.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Delegate.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FunctionDelegate.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FunctionDelegate.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Expire.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Expire.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/LRUStrategy.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/LRUStrategy.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractStrategy.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/AbstractStrategy.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/AbstractTypes.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/AbstractTypes.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Base64Encoding.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Base64Encoding.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBuffer.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBuffer.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferUtils.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferUtils.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferReader.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferReader.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferStream.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferStream.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/UnbufferedStreamBuf.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/UnbufferedStreamBuf.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferWriter.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ByteBufferWriter.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/COBSEncoding.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/COBSEncoding.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/SLIPEncoding.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/SLIPEncoding.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Compression.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Compression.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DeviceFilter.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DeviceFilter.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryUtils.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryUtils.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryFilter.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryFilter.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryWatcherManager.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/DirectoryWatcherManager.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/FileExtensionFilter.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/FileExtensionFilter.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/String.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/String.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Ascii.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/Ascii.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/UTF8String.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/UTF8String.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/HexBinaryEncoding.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/HexBinaryEncoding.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/HiddenFileFilter.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/HiddenFileFilter.h:
 
-/home/pimaker/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/RegularExpression.h:
+/mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/RegularExpression.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ImageUtils.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ImageUtils.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/JSONUtils.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/JSONUtils.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/LinkFilter.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/LinkFilter.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/PathFilterCollection.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/PathFilterCollection.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/RegexPathFilter.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/RegexPathFilter.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/SearchPath.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/SearchPath.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Thread.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/Thread.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/PollingThread.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/PollingThread.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ThreadChannel.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ThreadChannel.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ThreadsafeLoggerChannel.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/ThreadsafeLoggerChannel.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/URIEncoding.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/ofxIO/include/ofx/IO/URIEncoding.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDevice.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDevice.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxHID/libs/hidapi/include/hidapi/hidapi.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/hidapi/include/hidapi/hidapi.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceInfo.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceInfo.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceUtils.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceUtils.h:

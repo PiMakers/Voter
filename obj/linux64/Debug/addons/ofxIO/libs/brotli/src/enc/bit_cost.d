@@ -1,107 +1,107 @@
-/home/pimaker/OF/myApps/Szavazo/obj/linux64/Debug/addons/ofxIO/libs/brotli/src/enc/bit_cost.o: \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/bit_cost.c \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./bit_cost.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./../common/types.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././fast_log.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././../common/types.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././../common/port.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././histogram.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././../common/constants.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././block_splitter.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././../common/types.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././command.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././../common/types.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././../common/port.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././fast_log.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././prefix.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/constants.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/port.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/types.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././././fast_log.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././memory.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././port.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././port.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././quality.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././encode.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././command.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././context.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././../common/port.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././port.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././histogram_inc.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././port.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/../common/constants.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/../common/types.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./fast_log.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./histogram.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./port.h \
- /home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./bit_cost_inc.h
+/mnt/i/DataNTFS/OF/myGitHub/Voter/obj/linux64/Debug/addons/ofxIO/libs/brotli/src/enc/bit_cost.o: \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/bit_cost.c \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./bit_cost.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./../common/types.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././fast_log.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././../common/types.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././../common/port.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././histogram.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././../common/constants.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././block_splitter.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././../common/types.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././command.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././../common/types.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././../common/port.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././fast_log.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././prefix.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/constants.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/port.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/types.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././././fast_log.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././memory.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././port.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././port.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././quality.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././encode.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././command.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././context.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././../common/port.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././port.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././histogram_inc.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././port.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/../common/constants.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/../common/types.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./fast_log.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./histogram.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./port.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./bit_cost_inc.h
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./bit_cost.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./bit_cost.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./../common/types.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./../common/types.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././fast_log.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././fast_log.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././../common/types.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././../common/types.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././../common/port.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././../common/port.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././histogram.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././histogram.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././../common/constants.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././../common/constants.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././block_splitter.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././block_splitter.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././../common/types.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././../common/types.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././command.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././command.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././../common/types.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././../common/types.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././../common/port.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././../common/port.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././fast_log.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././fast_log.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././prefix.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././prefix.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/constants.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/constants.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/port.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/port.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/types.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././../common/types.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././././fast_log.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././././fast_log.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././memory.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././memory.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././port.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././port.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././port.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././port.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././././quality.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././././quality.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././././encode.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././././encode.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././command.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././command.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././context.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././context.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././../common/port.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././../common/port.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././port.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././port.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./././histogram_inc.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./././histogram_inc.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/././port.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/././port.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/../common/constants.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/../common/constants.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/../common/types.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/../common/types.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./fast_log.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./fast_log.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./histogram.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./histogram.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./port.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./port.h:
 
-/home/pimaker/OF/myApps/Szavazo/local_addons/ofxIO/libs/brotli/src/enc/./bit_cost_inc.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/libs/brotli/src/enc/./bit_cost_inc.h:
