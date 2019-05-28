@@ -519,6 +519,7 @@ obj/linux64/Debug/src/ofApp.o: \
  /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/of3dUtils.h \
  /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofCamera.h \
  /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/src/ARS_reciver.h \
  /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/src/ofxHID.h \
  /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/src/ofxIO.h \
  /mnt/LinuxData/OF/openFrameworks/addons/ofxPoco/libs/poco/include/Poco/FileStream.h \
@@ -615,7 +616,9 @@ obj/linux64/Debug/src/ofApp.o: \
  /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDevice.h \
  /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/hidapi/include/hidapi/hidapi.h \
  /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceInfo.h \
- /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceUtils.h
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceUtils.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/src/GUI.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/src/resultWindow.h
 
 /mnt/i/DataNTFS/OF/myGitHub/Voter/src/ofApp.h:
 
@@ -1687,6 +1690,8 @@ obj/linux64/Debug/src/ofApp.o: \
 
 /mnt/LinuxData/OF/openFrameworks/libs/openFrameworks/3d/ofEasyCam.h:
 
+/mnt/i/DataNTFS/OF/myGitHub/Voter/src/ARS_reciver.h:
+
 /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/src/ofxHID.h:
 
 /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxIO/src/ofxIO.h:
@@ -1880,3 +1885,7 @@ obj/linux64/Debug/src/ofApp.o: \
 /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceInfo.h:
 
 /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceUtils.h:
+
+/mnt/i/DataNTFS/OF/myGitHub/Voter/src/GUI.h:
+
+/mnt/i/DataNTFS/OF/myGitHub/Voter/src/resultWindow.h:

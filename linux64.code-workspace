@@ -5,8 +5,21 @@
 		}
 	],
 	"settings": {
+		"terminal.integrated.confirmOnExit": true,
+		"terminal.integrated.copyOnSelection": true,
+		"terminal.integrated.env.linux": {
+			"OF_ROOT": "/mnt/LinuxData/OF/openFrameworks",
+		},
 		"files.associations": {
+			"system_error": "cpp",
+			"iostream": "cpp",
+			"limits": "cpp",
 			"ostream": "cpp"
+		},
+		"terminal.integrated.enableBell": true,
+		"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+		"terminal.integrated.env.windows": {
+			"OF_ROOT": "i:\\DataNTFS\\OFopenFrameworks"
 		}
 	}
 }

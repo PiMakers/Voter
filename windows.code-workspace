@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.confirmOnExit": true,
+		"terminal.integrated.copyOnSelection": true,
+		"terminal.integrated.env.linux": {
+			"OF_ROOT": "/mnt/LinuxData/OF/openFrameworks",
+		},
+		"files.associations": {
+			"system_error": "cpp",
+			"iostream": "cpp",
+			"limits": "cpp",
+			"ostream": "cpp"
+		},
+		"terminal.integrated.shell.windows": "C:\\msys64\\usr\\bin\\bash.exe", 
+		"terminal.integrated.shellArgs.windows": ["--login", "-i"],
+		"terminal.integrated.env.windows": { 
+			 "MSYSTEM": "MINGW32", 
+			 "CHERE_INVOKING":"1",
+			 "OF_ROOT": "i:/DataNTFS/OF/openFrameworks"
+			} 
+	}
+}

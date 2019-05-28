@@ -5,9 +5,10 @@
             "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/usr/bin/make",
+            "program": "/bin/bash",
             "args": [
-                "RunDebug"
+                "-c",
+                "'make RunDebug'"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -17,7 +18,7 @@
                     "value": "/mnt/LinuxData/OF/openFrameworks"
                 }
             ],
-            "externalConsole": true,
+            "externalConsole": false,
             "preLaunchTask": "build (Debug)",
             "linux": {
                 "MIMode": "gdb"

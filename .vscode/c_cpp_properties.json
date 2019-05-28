@@ -3,9 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/../../../libs/**",
-                "${workspaceFolder}/../../../addons/**",
+                "${workspaceFolder}/../../openFrameworks/libs/openFrameworks",
+                "${workspaceFolder}/../../openFrameworks/addons/**",
+                "${workspaceFolder}/local_addons/ofxHID",
                 "/usr/include/**",
                 "/usr/lib/x86_64-linux-gnu/glib-2.0/include/"
             ],
