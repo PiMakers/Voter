@@ -8,16 +8,6 @@
 *.d
 obj/**
 
+!bin/data/*
 bin/*
 !bin/data/*
-obj/linux64/Debug/src/main.d
-obj/linux64/Debug/src/main.d
-obj/linux64/Debug/src/ofApp.d
-obj/linux64/Debug/addons/ofxHID/libs/ofxHID/src/HIDDeviceUtils.o
-obj/linux64/Debug/src/main.o
-obj/linux64/Debug/src/ofApp.d
-obj/linux64/Debug/src/ofApp.o
-obj/linux64/Debug/src/ofApp.d
-obj/linux64/Debug/src/main.d
-obj/linux64/Debug/src/main.o
-obj/linux64/Debug/src/main.d
