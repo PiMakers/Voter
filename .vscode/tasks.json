@@ -53,7 +53,7 @@
             },
             "args": [
                 "-c",
-                "'make -j4 Debug'"
+                "'make Debug'"
             ],
             "problemMatcher": []
         },

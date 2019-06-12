@@ -3,10 +3,28 @@
 
 #include "ofMain.h"
 #include "ofxHID.h"
+#include "counter.h"
 
 //ARS Reciver VID/PID   /serial
 #define VENDOR_ID 1008
 #define PRODUCT_ID 34836
+
+// KeyPad Buttons:
+#define     UP_ARROW         1
+#define     DOWN_ARROW       2
+#define     LEFT_ARROW       3
+#define     RIGHT_ARROW      4
+#define     STOP_BTN         5
+#define     PLAY_BTN         6
+#define     PPT_BTN          7
+#define     GRAF_BTN         8
+#define     FORM_BTN         9
+#define     STOP_WATCH_BTN  10
+#define     OK_BTN          11
+#define     DISPLAY_BTN     15
+#define     VOTE_BTN        16
+#define     PAUSE_BTN       17
+#define     ESC_BTN         18
 
 #define MAX_NUM_VOTERS 30
 
@@ -17,29 +35,26 @@ public:
      ARS_reciver();
     ~ARS_reciver();
 
-    void draw();
-    void drawVote();
+//    void setup();
+//    void draw();
 
-    bool connected;
+    void resetVoteResult();
+    void drawCounter(ofTrueTypeFont counterFont, float X = 0, float Y = 0 );
+    void startCounter();
+    void stopCounter();
+
+    bool connected, vote_started = false, graf_button = false, stopWatch_button = false, vote_ended = true;
+    int udArrow = 0, lrArrow = 0;
     int res;
 
-    std::string data;
-
-    typedef struct _KEYPAD
-    {
+    typedef struct _KEYPAD {
         // keypadModelNo??? byte 0-1
-        std::string model,  data_mode, message;
+        std::string model,  data_mode, data;
         // data_mode byte 2 # 0x67 normal (vote); 0x69 exam (01-99); 0x6e chanel mode???; 0x6c join mode ???
         unsigned int digits, user_ID, keypad_No;
-        long long int sent_value,  _sent_value;
-        bool set;
-
-            float width;
-            float height;
-            float posX, _posX;
-            float posY, _posY;
-            ofColor color;
-        
+        long long int sent_value;
+        //        bool set;
+       
         void clear () {
             digits = 0,
             user_ID = 0,
@@ -47,8 +62,8 @@ public:
             sent_value = 0;
             model = "";
             data_mode = "";
-            message.clear();
-            set = false;
+            data.clear();
+        //            set = false;
         }
         
         void printInfo() {
@@ -59,85 +74,43 @@ public:
             cout << "keypad_No: " << keypad_No << endl;
             cout << "sent_value: " << sent_value << endl;
             cout << "user_ID: " << user_ID << endl;
-            cout << "recived data: " << message << endl;
-            cout << "set: " << set << endl;
-
+            cout << "recived data: " << data << endl;
+        //            cout << "set: " << set << endl;
         }
     } KEYPAD;
 
-typedef struct _VOTE {
-        
-    std::string voter_name = "";
-    int voterID;
-    int vote_value = -1;
-    bool hasVoted = false;
-
-    int index = -1;
-
-    float width;
-    float height;
-    float posX, _posX;
-    float posY, _posY;
-    ofColor color;
-    ofTrueTypeFont vote_font;
-    ofRectangle boundingBox;
-                    
-    void setup() {
-        vote_font.load("verdana.ttf", 35, true, true);
-        vote_font.setLineHeight(18.0f);
-        vote_font.setLetterSpacing(1.037);
-        boundingBox = vote_font.getStringBoundingBox(voter_name, 0,0);
-    }
+    typedef struct _VOTE {
+            
+        std::string voter_name = "";
+        int voterID = -1, index = -1;
+        int vote_value = -1;
+        bool hasVoted = false, registered = false;
 
         void clear() {
-            voter_name = "";
-            voterID = -1;// =30;
-            vote_value = -1;
-            hasVoted = false;
-        }
+                voter_name = "";
+                voterID = -1;// =30;
+                vote_value = -1;
+                hasVoted = false;
+                registered = false;
+    //            index = -1;
+            }
+        void clearVoteResult() {
+                vote_value = -1;
+                hasVoted = false;
+            }
 
-        void draw() {
+        } VOTE /*, *PVOTE*/;
 
-            voterID = index + 1;
-            width = ofGetWindowWidth()/3;
-            height = ofGetWindowHeight()/15;
 
-            posX = (voterID -1)/10;
-            posY = (voterID - 10*posX) -1;
-
-            _posX = posX * width;
-            _posY = (5 + posY)*height;
-
- 
-            if ( vote_value == 1 )
-                color = ofColor::green;
-            else if ( vote_value == 2 )
-                    color = ofColor::red;
-            else if ( vote_value == 3 )
-                    color = ofColor::white;
-            else color = ofGetBackgroundColor();
-                
-                // Set color by vote
-                ofFill();
-                ofSetColor (color);
-                ofDrawRectangle (_posX, _posY, width, height );
-                // black border
-                ofNoFill();
-                ofSetColor(ofColor::black);
-                ofDrawRectangle (_posX, _posY, width, height );
-                // name
-                vote_font.drawString( voter_name, _posX + 0.5*(width-boundingBox.width), _posY + height-0.5*(height- boundingBox.height));
-        
-        }
-
-} VOTE /*, *PVOTE*/;
-
+///    void drawVote( /*ofTrueTypeFont ttf,*/VOTE vote);
+    
     vector <VOTE> votes;
 
     VOTE vote; // = new VOTE;
 
 private:
 
+    counter cntr;// = new  counter;
     typedef std::vector<unsigned char> BUFFER;
     BUFFER buffer;
     
@@ -147,6 +120,9 @@ private:
     void init();
     void threadedFunction();
     void pharse_data( BUFFER data );
-    void pharse_data( string &data );
-    bool isReady;
+    //void pharse_data( string &data );
+    void handel_data();
+    bool /*isReady, */names_loaded = false;
+    std::string data;
+
 };

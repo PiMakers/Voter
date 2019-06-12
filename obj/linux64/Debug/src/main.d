@@ -617,7 +617,7 @@ obj/linux64/Debug/src/main.o: \
  /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/hidapi/include/hidapi/hidapi.h \
  /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceInfo.h \
  /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceUtils.h \
- /mnt/i/DataNTFS/OF/myGitHub/Voter/src/GUI.h \
+ /mnt/i/DataNTFS/OF/myGitHub/Voter/src/counter.h \
  /mnt/i/DataNTFS/OF/myGitHub/Voter/src/resultWindow.h
 
 /mnt/i/DataNTFS/OF/myGitHub/Voter/src/ofApp.h:
@@ -1886,6 +1886,6 @@ obj/linux64/Debug/src/main.o: \
 
 /mnt/i/DataNTFS/OF/myGitHub/Voter/local_addons/ofxHID/libs/ofxHID/include/ofx/IO/HIDDeviceUtils.h:
 
-/mnt/i/DataNTFS/OF/myGitHub/Voter/src/GUI.h:
+/mnt/i/DataNTFS/OF/myGitHub/Voter/src/counter.h:
 
 /mnt/i/DataNTFS/OF/myGitHub/Voter/src/resultWindow.h:

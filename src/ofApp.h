@@ -9,18 +9,20 @@
 
 
 #include "ofMain.h"
-// #include "ofxHID.h"
 #include "ARS_reciver.h"
-#include "GUI.h"
+#include "resultWindow.h"
+// #include "dataWindow.h"
 
 class ofApp: public ofBaseApp
 {
 public:
     void setup();
     void update();
-    void draw() override;
-
+    void draw();
+	
 	void keyPressed(int key);
+
+	void exit();
 /*	
     void keyReleased(int key);
 	void mouseMoved(int x, int y );
@@ -33,9 +35,21 @@ public:
 	void dragEvent(ofDragInfo dragInfo);
 	void gotMessage(ofMessage msg);
 */
-    void exit() override;
 
 //    ARS_reciver arsReciver;
-	GUI gui;
+//	GUI gui;
+
+	resultWindow rWindow;
+    ARS_reciver* arsReciver = new ARS_reciver;
+    counter* cnt = new counter;
+
+
+    float width, height;
+    float posX, posY, index = -1;
+
+    ofTrueTypeFont vote_font;
+    ofRectangle boundingBox;
+    ofColor color;
+//	dataWindow datawindow;
 
 };

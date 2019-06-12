@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "I:\\DataNTFS\\OF\\openFrameworks"
 		}
 	],
 	"settings": {
@@ -14,7 +17,12 @@
 			"system_error": "cpp",
 			"iostream": "cpp",
 			"limits": "cpp",
-			"ostream": "cpp"
+			"ostream": "cpp",
+			"array": "cpp",
+			"bitset": "cpp",
+			"string_view": "cpp",
+			"initializer_list": "cpp",
+			"utility": "cpp"
 		},
 		"terminal.integrated.shell.windows": "C:\\msys64\\usr\\bin\\bash.exe", 
 		"terminal.integrated.shellArgs.windows": ["--login", "-i"],
