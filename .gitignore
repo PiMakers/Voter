@@ -3,10 +3,8 @@
 # ================
 
 .vscode/ipch
+
 obj
-**.o
-**.d
-#obj/**
 
 bin/*
 !bin/data/*
