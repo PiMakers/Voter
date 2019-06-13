@@ -6,7 +6,7 @@
 obj
 **.o
 **.d
-obj/**
+#obj/**
 
 bin/*
 !bin/data/*
