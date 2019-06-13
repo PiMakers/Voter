@@ -22,7 +22,6 @@ void ofApp::setup()
 //--------------------------------------------------------------
 void ofApp::update() {
 
-        rWindow.voteMode = "Nyílt";
         width = ofGetWindowWidth()/3;
         height = ofGetWindowHeight()/15;
         
@@ -50,13 +49,12 @@ void ofApp::update() {
             if (rWindow.countDown -> stopped) {
                         
                         rWindow.setCounterType ( arsReciver -> stopWatch_button );
-
+                        
+                        rWindow.voteMode = "Nyílt";
                         if ( arsReciver -> graf_button)
                             rWindow.voteMode = "Titkos";
 
-                        
                         if (( arsReciver -> udArrow || arsReciver -> lrArrow) && (!rWindow.countDown -> counterType )) {
-//                if ( rWindow.countDown -> stopped ) {
                     
                             rWindow.setStartTime (10000*(arsReciver -> udArrow) + 60000*(arsReciver -> lrArrow) + DEFAULT_VOTE_TIME);
                             ofLogVerbose(__func__) << "arsReciver -> lrArrow" << arsReciver -> lrArrow;

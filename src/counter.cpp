@@ -22,6 +22,7 @@ void counter::setCounterType ( int ct ) {
 
 void counter::setStartTime ( int newStartTime ){
     if (stopped) {
+//        newStartTime = newStartTime + startTime;
         if (newStartTime < 0) newStartTime = 0;
             startTime = newStartTime;
             deltaTime = startTime;
