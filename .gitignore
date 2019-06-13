@@ -3,7 +3,7 @@
 # ================
 
 .vscode/ipch
-[Oo]bj
+obj
 *.o
 *.d
 obj/**
