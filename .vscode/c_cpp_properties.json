@@ -4,7 +4,7 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}",
-                "${workspaceFolder}/../../openFrameworks/libs/openFrameworks",
+                "${workspaceFolder}/../../openFrameworks/libs/openFrameworks/**",
                 "${workspaceFolder}/../../openFrameworks/addons/**",
                 "${workspaceFolder}/local_addons/**",
                 "/usr/include/**",

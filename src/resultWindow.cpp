@@ -1,12 +1,10 @@
 #include "resultWindow.h"
 
 resultWindow::resultWindow(){
-///        arsReciver = new ARS_reciver;
-};
+        ///        arsReciver = new ARS_reciver;
+        };
 
-resultWindow::~resultWindow(){
-
-};
+resultWindow::~resultWindow(){};
 
 void resultWindow::setup(float scale) {
 	ofTrueTypeFont::setGlobalDpi(72);
@@ -38,21 +36,12 @@ void resultWindow::setup(float scale) {
         counterFont.load("verdana.ttf", scale*90);
         
         //countDown -> counterType(STOP_WATCH);
-}
-
+        }
 void resultWindow::update() {
         
         height = ofGetHeight()/15;
         width = ( ofGetWidth() - 5*height ) / 2;
     }
-
-void resultWindow::setCounterType ( bool stopWatch_button ) {
-        countDown -> setCounterType ( (int) stopWatch_button );
-        }
-
-void resultWindow::setStartTime ( int newStartTime ) {
-        countDown -> setStartTime (  newStartTime );
-        }
 
 void resultWindow::draw( float x, float y, float scaleW, float scaleH) {
         //Draw titleBar & Titles
@@ -112,27 +101,30 @@ void resultWindow::draw( float x, float y, float scaleW, float scaleH) {
                 ttf40.drawString( ofToString(numOfNo), 0.92 * width - stringBoundingBox.width, 3*height + stringBoundingBox.height/2 );
 
                 ttf40.drawString( ofToString(numOfElse), 0.92 * width - stringBoundingBox.width, 4*height + stringBoundingBox.height/2 );
+        
+                numOfVoted = numOfYes + numOfNo + numOfElse;
+                ttf40.drawString( ofToString(numOfVoted), 1.92 * width - stringBoundingBox.width, 2*height + stringBoundingBox.height/2 );
+
+                numOfNotVoted = max ( MAX_NUM_VOTERS - numOfVoted - numOfAway, 0 );
+                ttf40.drawString( ofToString(numOfNotVoted), 1.92 * width - stringBoundingBox.width, 3*height + stringBoundingBox.height/2 );
         }
         
-        numOfVoted = numOfYes + numOfNo + numOfElse;
-        ttf40.drawString( ofToString(numOfVoted), 1.92 * width - stringBoundingBox.width, 2*height + stringBoundingBox.height/2 );
-
-        numOfNotVoted = max ( MAX_NUM_VOTERS - numOfVoted - numOfAway, 0 );
-        ttf40.drawString( ofToString(numOfNotVoted), 1.92 * width - stringBoundingBox.width, 3*height + stringBoundingBox.height/2 );
-
         ttf40.drawString( ofToString(numOfAway), 1.92 * width - stringBoundingBox.width, 4*height + stringBoundingBox.height/2 );
-        /*
-                ofLogVerbose (__func__) << "rWindow.numOfElse++;     " << numOfElse;
-                ofLogVerbose(__func__) << "rWindow.numOfYes++;     " << numOfYes;
-                ofLogVerbose(__func__) << "rWindow.numOfNo++;     " << numOfNo;
-        */
         
         mainRect = counterFont.getStringBoundingBox("00:00", 0,0);
         countDown -> draw( counterFont, ofGetWindowWidth() - 2.5*height - mainRect.width/2, 4*height + mainRect.height/2 );
 
     }
 
-    string resultWindow::translateDayName() {
+void resultWindow::setCounterType ( bool stopWatch_button ) {
+        countDown -> setCounterType ( (int) stopWatch_button );
+        }
+
+void resultWindow::setStartTime ( int newStartTime ) {
+        countDown -> setStartTime (  newStartTime );
+        }
+        
+string resultWindow::translateDayName() {
 
             switch(ofGetWeekday()) {
 
@@ -154,3 +146,4 @@ void resultWindow::draw( float x, float y, float scaleW, float scaleH) {
                         return "UnknownDay";
         }
     }
+

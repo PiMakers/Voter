@@ -32,7 +32,7 @@ void ARS_reciver::init(){
             #ifndef WIN32
                 std::cout << device.toJSON().dump(4) << std::endl;
             #endif
-            std::cout << "Connected!" << std::endl;
+            ofLogNotice() << "Connected!" << std::endl;
             connected = true;
             // Only The first dev catch !!!
             //TODO: handle multiply ARS devices
@@ -42,7 +42,7 @@ void ARS_reciver::init(){
     
         // this is our buffer to strore the text data
     ofBuffer names = ofBufferFromFile("nevek.txt");
-    cout << "names.size(): " << names.size() << "\t\tnames_loaded: " << names_loaded << endl;    
+    ofLogVerbose() << "names.size(): " << names.size() << "\t\tnames_loaded: " << names_loaded << endl;    
     if( names.size() && !names_loaded ) {
         vector <string> data;
 
@@ -67,10 +67,7 @@ void ARS_reciver::init(){
         }
         names_loaded = true;
         vote.index = -1;
-    //        sleep(5000);
-    //        if ( !ttf20.isLoaded() ) setup();
     }
-
 }
 
 void ARS_reciver::pharse_data( BUFFER buffer ){
@@ -359,7 +356,7 @@ void ARS_reciver::threadedFunction() {
         }
         else 
         {
-            std::cout << "OPENING...." << std::endl;
+            std::cout << "OPENING...\r" << std::endl;
             init();
         }
         sleep (200);

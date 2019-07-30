@@ -66,8 +66,7 @@ void ofApp::update() {
 //--------------------------------------------------------------
 void ofApp::draw() {
 
-    rWindow.draw(0,0,0.5,0.5);
-//    ofScale(scaleW,scaleH,1);
+    rWindow.draw();
     if (arsReciver -> connected) {
 
         if (!arsReciver -> vote_started) {
@@ -168,6 +167,22 @@ void ofApp::draw() {
                 }
             }
         }
+    }
+    else {
+        
+        if (semafore) {
+            ofFill();
+            ofSetColor(ofColor::red);
+        //  ofDrawCircle(ofGetWidth()/3, ofGetHeight()*2/3, scale*100);
+            boundingBox = rWindow.ttf30i.getStringBoundingBox("Csatlakoztassa  vevőegységet !", 0,0);
+            rWindow.ttf30i.drawString( "Csatlakoztassa  vevőegységet !", ofGetWidth()/2 - 0.5*boundingBox.width, ofGetHeight()*2/3 + 0.5*boundingBox.height);
+        }
+        
+        if ( i == 30) {
+            semafore = !semafore;
+            i = 0;
+        }
+        i++;
     }
 //    arsReciver -> drawCounter(rWindow.counterFont, 200,200);
 //    datawindow.drawCirculeGraaf();

@@ -18,4 +18,5 @@ obj
 bin/*
 !bin/data
 !bin/x64/data
+!bin/x64/Release/data
 !bin/Win32/data

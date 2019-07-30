@@ -52,6 +52,8 @@ public:
     ofRectangle boundingBox;
     ofColor color;
 	float scale, scaleW, scaleH;
-//	dataWindow datawindow;
+	
+	bool semafore = true;
+    int i;// = -1;
 
 };
