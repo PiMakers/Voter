@@ -31,20 +31,16 @@ void ofApp::update() {
                                 rWindow.countDown -> ended = true;
                                 
                         if ( !rWindow.countDown -> isStarted() ) {
-
                                 rWindow.countDown -> start();
                         }
+                        
 
             }
             
-            else  
-                if (rWindow.countDown -> ended) {
-                    arsReciver -> vote_ended = true;
-                    
-                    if ( rWindow.countDown -> isStarted() ) {
-                            arsReciver -> resetVoteResult();
-                            rWindow.countDown -> stop();
-                    }
+            else  if ( rWindow.countDown -> isStarted() && rWindow.countDown -> ended) {
+                        arsReciver -> resetVoteResult();
+                        rWindow.countDown -> stop();
+                        
                 }
                 
             if (rWindow.countDown -> stopped) {
