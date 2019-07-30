@@ -4,15 +4,23 @@
 			"path": "."
 		},
 		{
-			"path": "/mnt/i/DataNTFS/OF/openFrameworks"
+			"path": "../../openFrameworks"
 		}
 	],
 	"settings": {
 		"terminal.integrated.confirmOnExit": true,
 		"terminal.integrated.copyOnSelection": true,
+		"terminal.integrated.enableBell": true,
+		/*linux*/
 		"terminal.integrated.env.linux": {
 			"OF_ROOT": "/mnt/LinuxData/OF/openFrameworks",
 		},
+		/* Windows */
+		"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+		"terminal.integrated.env.windows": {
+			"OF_ROOT": "i:\\DataNTFS\\OFopenFrameworks"
+		},
+		
 		"files.associations": {
 			"system_error": "cpp",
 			"iostream": "cpp",
@@ -66,10 +74,6 @@
 			"typeinfo": "cpp",
 			"utility": "cpp"
 		},
-		"terminal.integrated.enableBell": true,
-		"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-		"terminal.integrated.env.windows": {
-			"OF_ROOT": "i:\\DataNTFS\\OFopenFrameworks"
-		}
+
 	}
 }

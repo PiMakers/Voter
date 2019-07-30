@@ -2,22 +2,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug",
+            "name": "Debug (make)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/bin/bash",
+            "program": "/usr/bin/make",
             "args": [
-                "-c",
-                "'make RunDebug'"
+                "RunDebug"
             ],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
-            "environment": [
-                {
-                    "name": "OF_ROOT",
-                    "value": "/mnt/LinuxData/OF/openFrameworks"
-                }
-            ],
+            "environment": [],
             "externalConsole": false,
             "preLaunchTask": "build (Debug)",
             "linux": {

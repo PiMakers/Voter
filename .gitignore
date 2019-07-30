@@ -3,11 +3,19 @@
 # =================
 
 .vscode/ipch
+.vs
+
+
+*.sln*
+*.vc*
+icon.*
 
 # ===
 # OF
 # ===
-
+s
 obj
 bin/*
 !bin/data
+!bin/x64/data
+!bin/Win32/data

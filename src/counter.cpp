@@ -108,7 +108,7 @@ void counter::draw( ofTrueTypeFont &font, float posX , float posY ) {
         spaceSec = spaceMin = "";
         if ( seconds < 10 ) spaceSec = "0";
         int minutes = millisToMinutes(deltaTime);
-        if ( minutes < 10 ) spaceMin = "0";
+        if ( minutes < 10 ) spaceMin = " ";
 
         if ( (deltaTime == endTime && !counterType ) || (ended /*&& counterType*/)) {
         //if ( deltaTime == 0 && !counterType ) {

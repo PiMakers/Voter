@@ -21,6 +21,7 @@ public:
     void draw();
 	
 	void keyPressed(int key);
+	void windowResized(int w, int h);
 
 	void exit();
 /*	
@@ -31,7 +32,7 @@ public:
 	void mouseReleased(int x, int y, int button);
 	void mouseEntered(int x, int y);
 	void mouseExited(int x, int y);
-	void windowResized(int w, int h);
+	
 	void dragEvent(ofDragInfo dragInfo);
 	void gotMessage(ofMessage msg);
 */
@@ -50,6 +51,7 @@ public:
     ofTrueTypeFont vote_font;
     ofRectangle boundingBox;
     ofColor color;
+	float scale, scaleW, scaleH;
 //	dataWindow datawindow;
 
 };

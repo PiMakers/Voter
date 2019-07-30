@@ -18,46 +18,7 @@
 
          ARS_device.close();
      }
- };
-/*
-void ARS_reciver::setup() {
-
-	ttf20.load("verdana.ttf", 10, true, true);
-    ttf20.setLineHeight(18.0f);
-	ttf20.setLetterSpacing(1.037);
-
-
-    //        ofTrueTypeFont::setGlobalDpi(72);
-    while (!ttf20.isLoaded()) {
-
-    ofTrueTypeFontSettings settings("verdana.ttf", 10);
-    settings.addRange(ofUnicode::LatinA);
-    ttf20.load(settings);
-    ttf20.drawString( "BBBBBBBBBBBBBRRRRRRR" , 300, 500);
-    sleep (500);
-
-    }
-    
-        vote_font.load("verdana.ttf", 10); //, true, true);
-        vote_font.setLineHeight(18.0f);
-        vote_font.setLetterSpacing(1.037);
-
-    ofLogError(__func__);
-    sleep (500);
-    }
-    
-}
-
-void ARS_reciver::draw() {
-    //    if (votes.size() == MAX_NUM_VOTERS)
-        for (size_t i = 0; i < votes.size(); i++) {
-            VOTE v = votes[i];
-        drawVote (ttf20,  v);
-        cout << "NAME: " << votes[i].voter_name << endl;
-        }
-
-}
-*/
+ }
 
 void ARS_reciver::init(){
 
@@ -115,8 +76,8 @@ void ARS_reciver::init(){
 void ARS_reciver::pharse_data( BUFFER buffer ){
                 
     keypad.clear();
-    char str[res];
-     
+    //char str[res];
+    char str[63];
     for (auto i = 0; i < res; i++) {
         
         if ( buffer[i] == 0x66 ) { // Data end
