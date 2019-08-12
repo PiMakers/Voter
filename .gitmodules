@@ -4,3 +4,6 @@
 [submodule "local_addons/ofxIO"]
 	path = local_addons/ofxIO
 	url = https://github.com/bakercp/ofxIO.git
+[submodule "hidapi"]
+	path = hidapi
+	url = https://github.com/signal11/hidapi

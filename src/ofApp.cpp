@@ -29,7 +29,10 @@ void ofApp::update() {
             if (arsReciver -> vote_started ) {
                         if (arsReciver -> vote_ended)
                                 rWindow.countDown -> ended = true;
-                                
+                        
+                        else if (rWindow.countDown -> ended)
+                                    arsReciver -> vote_ended = true;
+                        
                         if ( !rWindow.countDown -> isStarted() ) {
                                 rWindow.countDown -> start();
                         }

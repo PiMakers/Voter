@@ -162,7 +162,7 @@ void ARS_reciver::pharse_data( BUFFER buffer ){
 }
 
 void ARS_reciver::handel_data() {
-    if ( keypad.data_mode.compare("vote") == 0 && vote_started ) {
+    if ( keypad.data_mode.compare("vote") == 0 && vote_started && !vote_ended ) {
 
         for (size_t i = 0; i < votes.size(); i++) {
 
@@ -356,7 +356,7 @@ void ARS_reciver::threadedFunction() {
         }
         else 
         {
-            std::cout << "OPENING...\r" << std::endl;
+            std::cout << "Opening...\r";
             init();
         }
         sleep (200);
