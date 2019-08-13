@@ -5,24 +5,50 @@
 
 
  ARS_reciver::ARS_reciver(){
+    #ifdef NO_OFX
+        if (hid_init()) {
+            ofLogError("HIIIDinit WITH NO_OFX FAILED!!!");
+            exit;
+        }
+        ofLogNotice("ARS STARTED WITH NO_OFX!!!!!!");
+    #else
+        ofLogNotice("ARS STARTED!!!!!!");
+    #endif   
+    
     startThread();
-    ofLogNotice("ARS STARTED!!!!!!");
     ofLogNotice();
 }
  
  ARS_reciver::~ARS_reciver(){
 
     ///     stopThread();
-     waitForThread();
+    waitForThread();
+
+    #ifdef NO_OFX
+        ofLogNotice("defined exit: NO_OFX !!!!! ");
+        hid_close(ARS_device);
+        hid_exit();
+    #else
      if (ARS_device.isOpen()) {
 
          ARS_device.close();
      }
+     #endif
  }
 
 void ARS_reciver::init(){
 
     connected = false;
+
+    #ifdef NO_OFX
+        ARS_device = hid_open(VENDOR_ID, PRODUCT_ID, NULL);
+        if (!ARS_device ){
+            return;
+        }
+        // Set the hid_read() function to be non-blocking.
+	    hid_set_nonblocking(ARS_device, 1);
+        connected = true;
+    #else
     auto devices = ofxIO::HIDDeviceUtils::listDevicesWithVendorAndProductIds(VENDOR_ID, PRODUCT_ID);
 
     for (const auto& device: devices) {
@@ -39,8 +65,10 @@ void ARS_reciver::init(){
             break;
         }
     }
+    #endif    
     
-        // this is our buffer to strore the text data
+    cout << endl;
+    // this is our buffer to strore the text data
     ofBuffer names = ofBufferFromFile("nevek.txt");
     ofLogVerbose() << "names.size(): " << names.size() << "\t\tnames_loaded: " << names_loaded << endl;    
     if( names.size() && !names_loaded ) {
@@ -70,9 +98,26 @@ void ARS_reciver::init(){
     }
 }
 
+void ARS_reciver::pharse_data2 ( BUFFER *buffer ){
+     for (auto i = 0; i < res; i++) {
+        //cout << buffer[i];
+        printf("%02hx ",buffer[i]);
+     }
+     cout << endl;
+     for (auto i = 0; i < res; i++) {
+        cout << &buffer[i];
+        //printf("%02hx ",buffer[i]);
+     }
+     cout << endl;
+}
+
 void ARS_reciver::pharse_data( BUFFER buffer ){
-                
     keypad.clear();
+    
+    #ifdef NO_OFX            
+        ofLogNotice("PHARSING DATA NO_OFX");
+    #else
+
     //char str[res];
     char str[63];
     for (auto i = 0; i < res; i++) {
@@ -159,6 +204,8 @@ void ARS_reciver::pharse_data( BUFFER buffer ){
             }
             
     }
+
+    #endif
 }
 
 void ARS_reciver::handel_data() {
@@ -336,21 +383,39 @@ void  ARS_reciver::resetVoteResult() {
 }
 
 void ARS_reciver::threadedFunction() {
-
+    printf("TREAD FISTARTED!!!!!!!!!!!!!!...\r");
+    init();
     while(isThreadRunning()) {
 
-        if ( ARS_device.isOpen()) {
-            res = ARS_device.read( buffer );
+        #ifdef NO_OFX
+            if (ARS_device) {
+                //res = hid_read(ARS_device, buffer );
+                // printf("waireading");
+                res = hid_read(ARS_device, buff, sizeof(buff) );
+        #else
+                if ( ARS_device.isOpen()) {
+                res = ARS_device.read( buffer );
+        #endif
+            
             if (res == 0)
                 printf("waiting...\r");
                 
             else if (res < 0) {
                 printf("Unable to read()\r");
                 init();
+//                sleep (200);
             }
             else if ( res >= 1 ) {
-                pharse_data ( buffer );
-                handel_data();
+                #ifdef NO_OFX
+                    //memccpy (buff, buffer.data, buffer.size );
+                    //char* buff2 = (char*)buff;
+
+                    pharse_data2 ( buff );
+//                    handel_data2();
+                #else
+                    pharse_data ( buffer );
+                    handel_data();
+                #endif                
             }
 
         }
@@ -361,5 +426,7 @@ void ARS_reciver::threadedFunction() {
         }
         sleep (200);
     }
+
+    printf("TREAD FINISHED!!!!!!!!!!!!!!...\r");
 
  }

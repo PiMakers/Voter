@@ -5,7 +5,10 @@
 		},
 		{
 			"path": "../../openFrameworks"
-		}
+		}/*,
+		{
+			"path": "/mnt/i/DataNTFS/OF/myGitHub/VoterX"
+		}*/
 	],
 	"settings": {
 		"terminal.integrated.confirmOnExit": true,

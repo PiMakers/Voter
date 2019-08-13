@@ -28,6 +28,8 @@
 
 #define MAX_NUM_VOTERS 30
 
+// #define NO_OFX
+
 class ARS_reciver : public ofThread {
 
 public:
@@ -111,14 +113,31 @@ public:
 private:
 
     counter cntr;// = new  counter;
-    typedef std::vector<unsigned char> BUFFER;
-    BUFFER buffer;
-    
+            
     KEYPAD keypad;
+    
+    #ifdef NO_OFX
+        hid_device *ARS_device;
+        /*
+        typedef struct BUFFER {
+            unsigned char** data;
+            size_t size ;
+            
+        } buffer, *pbuffer;
+        */
+    ///    BUFFER buffer[256];
+    typedef unsigned char BUFFER;
+    BUFFER buff[256];
+    #else
     ofxIO::HIDDevice ARS_device;
     ofxIO::HIDDeviceInfo ARS_dev_info = ofxIO::HIDDeviceInfo( VENDOR_ID, PRODUCT_ID);
+    typedef std::vector<unsigned char> BUFFER;
+    BUFFER buffer;
+    #endif
+    //BUFFER buffer;
     void init();
     void threadedFunction();
+    void pharse_data2( BUFFER* data );
     void pharse_data( BUFFER data );
     //void pharse_data( string &data );
     void handel_data();
