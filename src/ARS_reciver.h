@@ -28,7 +28,8 @@
 
 #define MAX_NUM_VOTERS 30
 
-// #define NO_OFX
+// 
+#define NO_OFX
 
 class ARS_reciver : public ofThread {
 
@@ -127,18 +128,21 @@ private:
         */
     ///    BUFFER buffer[256];
     typedef unsigned char BUFFER;
-    BUFFER buff[256];
+    //BUFFER buff[256];
+    BUFFER *buffer = new BUFFER;
+    void pharse_data( BUFFER* data );
     #else
     ofxIO::HIDDevice ARS_device;
     ofxIO::HIDDeviceInfo ARS_dev_info = ofxIO::HIDDeviceInfo( VENDOR_ID, PRODUCT_ID);
     typedef std::vector<unsigned char> BUFFER;
     BUFFER buffer;
+    void pharse_data( BUFFER data );
     #endif
     //BUFFER buffer;
     void init();
     void threadedFunction();
     void pharse_data2( BUFFER* data );
-    void pharse_data( BUFFER data );
+    
     //void pharse_data( string &data );
     void handel_data();
     bool /*isReady, */names_loaded = false;

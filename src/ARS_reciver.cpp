@@ -98,28 +98,32 @@ void ARS_reciver::init(){
     }
 }
 
-void ARS_reciver::pharse_data2 ( BUFFER *buffer ){
+void ARS_reciver::pharse_data2 ( BUFFER* buffer ){
      for (auto i = 0; i < res; i++) {
         //cout << buffer[i];
         printf("%02hx ",buffer[i]);
      }
      cout << endl;
      for (auto i = 0; i < res; i++) {
-        cout << &buffer[i];
+        cout << (char*)buffer;
         //printf("%02hx ",buffer[i]);
      }
      cout << endl;
 }
 
+#ifdef NO_OFX 
+void ARS_reciver::pharse_data( BUFFER* buffer ){
+#else
 void ARS_reciver::pharse_data( BUFFER buffer ){
+#endif
     keypad.clear();
-    
+ /*   
     #ifdef NO_OFX            
         ofLogNotice("PHARSING DATA NO_OFX");
     #else
-
+*/
     //char str[res];
-    char str[63];
+    char str[6];
     for (auto i = 0; i < res; i++) {
         
         if ( buffer[i] == 0x66 ) { // Data end
@@ -204,8 +208,12 @@ void ARS_reciver::pharse_data( BUFFER buffer ){
             }
             
     }
-
-    #endif
+         for (auto i = 0; i < res; i++) {
+        //cout << buffer[i];
+            printf("%02hx ",buffer[i]);
+        }
+        cout << "\n";
+//    #endif
 }
 
 void ARS_reciver::handel_data() {
@@ -389,9 +397,9 @@ void ARS_reciver::threadedFunction() {
 
         #ifdef NO_OFX
             if (ARS_device) {
-                //res = hid_read(ARS_device, buffer );
+                res = hid_read(ARS_device, buffer, 8*sizeof(buffer) );
                 // printf("waireading");
-                res = hid_read(ARS_device, buff, sizeof(buff) );
+                //res = hid_read(ARS_device, buff, sizeof(buff) );
         #else
                 if ( ARS_device.isOpen()) {
                 res = ARS_device.read( buffer );
@@ -406,16 +414,19 @@ void ARS_reciver::threadedFunction() {
 //                sleep (200);
             }
             else if ( res >= 1 ) {
+/*
                 #ifdef NO_OFX
                     //memccpy (buff, buffer.data, buffer.size );
                     //char* buff2 = (char*)buff;
 
-                    pharse_data2 ( buff );
-//                    handel_data2();
+                    //pharse_data2 ( buff );
+                    pharse_data ( pbuff );
+                    handel_data();
                 #else
+*/
                     pharse_data ( buffer );
                     handel_data();
-                #endif                
+//                #endif                
             }
 
         }

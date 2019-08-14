@@ -30,7 +30,7 @@ void ofApp::update() {
                         if (arsReciver -> vote_ended)
                                 rWindow.countDown -> ended = true;
                         
-                        else if (rWindow.countDown -> ended)
+                        else if (rWindow.countDown -> ended && !rWindow.countDown -> counterType)
                                     arsReciver -> vote_ended = true;
                         
                         if ( !rWindow.countDown -> isStarted() ) {
@@ -44,22 +44,22 @@ void ofApp::update() {
                         arsReciver -> resetVoteResult();
                         rWindow.countDown -> stop();
                         
-                }
+            }
                 
             if (rWindow.countDown -> stopped) {
                         
-                        rWindow.setCounterType ( arsReciver -> stopWatch_button );
+                rWindow.setCounterType ( arsReciver -> stopWatch_button );
                         
-                        rWindow.voteMode = "Nyílt";
-                        if ( arsReciver -> graf_button)
-                            rWindow.voteMode = "Titkos";
+                rWindow.voteMode = "Nyílt";
+                if ( arsReciver -> graf_button)
+                    rWindow.voteMode = "Titkos";
 
-                        if (( arsReciver -> udArrow || arsReciver -> lrArrow) && (!rWindow.countDown -> counterType )) {
+                    if (!rWindow.countDown -> counterType ) {
                     
-                            rWindow.setStartTime (10000*(arsReciver -> udArrow) + 60000*(arsReciver -> lrArrow) + DEFAULT_VOTE_TIME);
-                            ofLogVerbose(__func__) << "arsReciver -> lrArrow" << arsReciver -> lrArrow;
-                            ofLogVerbose(__func__) << "arsReciver -> udArrow" << arsReciver -> udArrow;
-                        }
+                        rWindow.setStartTime (10000*(arsReciver -> udArrow) + 60000*(arsReciver -> lrArrow) + DEFAULT_VOTE_TIME);
+                        ofLogVerbose(__func__) << "arsReciver -> lrArrow" << arsReciver -> lrArrow;
+                        ofLogVerbose(__func__) << "arsReciver -> udArrow" << arsReciver -> udArrow;
+                    }
             }
             
         }
@@ -72,22 +72,11 @@ void ofApp::draw() {
     rWindow.draw();
     if (arsReciver -> connected) {
 
-        if (!arsReciver -> vote_started) {
-            if (arsReciver -> udArrow || arsReciver -> lrArrow) {
-                
-                //if ( !rWindow.countDown -> isStarted() )
-                    rWindow.setStartTime (10000*(arsReciver -> udArrow) + 60000*(arsReciver -> lrArrow) + DEFAULT_VOTE_TIME);
-                
-                //ofLogVerbose(__func__) << "rWindow.countDown -> startTime" << rWindow.countDown -> startTime;
-            }
-        }
-
-            //if (!rWindow.countDown -> ended)
-                rWindow.numOfYes = 0;
-                rWindow.numOfNo = 0;
-                rWindow.numOfElse = 0;
-            rWindow.numOfNotVoted = 0;
-            rWindow.numOfAway = MAX_NUM_VOTERS;
+        rWindow.numOfYes = 0;
+        rWindow.numOfNo = 0;
+        rWindow.numOfElse = 0;
+        rWindow.numOfNotVoted = 0;
+        rWindow.numOfAway = MAX_NUM_VOTERS;
 
         for (size_t i = 0; i < arsReciver -> votes.size(); i++) {
 
@@ -224,10 +213,12 @@ void ofApp::keyPressed(int key){
 
 //--------------------------------------------------------------
 void ofApp::exit() {
+/*
         if ( arsReciver ) {
                 delete arsReciver;
                 arsReciver = NULL;
         }
+*/
 }
 
 //--------------------------------------------------------------
