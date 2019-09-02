@@ -47,6 +47,17 @@
                     "value": "/mnt/LinuxData/OF/openFrameworks"
                 }
             ],
+            "pipeTransport": {
+            /*    
+                "pipeCwd": "/usr/bin",
+                "pipeProgram": "enter the fully qualified path for the pipe program name, for example '/usr/bin/ssh'",
+                "pipeArgs": [],
+                "debuggerPath": "The full path to the debugger on the target machine, for example /usr/bin/gdb."
+            */
+            },
+            "sourceFileMap": {
+            //    "<source-path>": "<target-path>"
+            },
             "externalConsole": true,
             "preLaunchTask": "RPI3 Cross build",
             "linux": {

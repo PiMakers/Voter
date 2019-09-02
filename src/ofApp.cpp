@@ -48,7 +48,7 @@ void ofApp::update() {
                 
             if (rWindow.countDown -> stopped) {
                         
-                        rWindow.setCounterType ( arsReciver -> stopWatch_button );
+                        //rWindow.setCounterType ( arsReciver -> stopWatch_button );
                         
                         rWindow.voteMode = "Nyílt";
                         if ( arsReciver -> graf_button)

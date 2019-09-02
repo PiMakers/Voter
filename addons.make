@@ -1,3 +1,4 @@
-./local_addons/ofxHID
-./local_addons/ofxIO
+local_addons/ofxHID
+local_addons/ofxIO
 ofxPoco
+ofxHidapi

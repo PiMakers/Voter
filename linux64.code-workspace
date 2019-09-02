@@ -5,6 +5,10 @@
 		},
 		{
 			"path": "/mnt/i/DataNTFS/OF/openFrameworks"
+		},
+		{
+			"name":"OF_Win",
+			"path": "I:\\DataNTFS\\OF\\openFrameworks"
 		}
 	],
 	"settings": {
