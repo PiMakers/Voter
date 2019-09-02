@@ -1,10 +1,10 @@
 #pragma once
 
 #include "ofMain.h"
+#include "settings.h"
 
-#define DEFAULT_VOTE_TIME 30000
 
-class counter : ofBaseApp {
+class counter /*: ofBaseApp */{
 
 public:
 
@@ -13,15 +13,13 @@ typedef enum _COUNTER_TYPE{
     STOP_WATCH
 } COUNTER_TYPE;
 
-     counter( COUNTER_TYPE ct = COUNT_DOWN ){
+     counter(){
          startTime = DEFAULT_VOTE_TIME;
-
+         counterType = COUNT_DOWN ;
+         stopped = true;
      };
+
     ~counter(){};
-    
-    void setup(){};
-    
-    void update() {};
 
     void start();
 
@@ -33,30 +31,25 @@ typedef enum _COUNTER_TYPE{
     
     void setStartTime ( int newStartTime );
 
-    int millisToMinutes( uint64_t milliseconds);
-    
-    int millisToSeconds( uint64_t milliseconds);
-
     void draw( ofTrueTypeFont &font, float posX = 0.0, float posY = 0.0 );
 
     int currTime,lastTime, startTime, endTime;
 
-    bool ended = false;
+    bool ended;
 
-    bool stopped = true;
+    bool stopped;
 
-        COUNTER_TYPE counterType;    
+    COUNTER_TYPE counterType;    
 
 private:
 
+        int millisToMinutes( uint64_t milliseconds);
+        int millisToSeconds( uint64_t milliseconds);
         
-//        int counterType = COUNT_DOWN;
         int deltaTime = DEFAULT_VOTE_TIME;
         bool semafore = true;
         string spaceSec, spaceMin;
 
-
-
-        int i;// = -1;
+        int i;
         bool started = false;
 };

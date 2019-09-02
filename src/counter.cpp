@@ -4,7 +4,6 @@
 void counter::setCounterType ( int ct ) {
     if (stopped) {
         if ( ct == COUNT_DOWN ) {
-            //startTime = DEFAULT_VOTE_TIME;
             endTime = 0;
             i = -1;
             counterType = COUNT_DOWN;
@@ -22,9 +21,8 @@ void counter::setCounterType ( int ct ) {
 
 void counter::setStartTime ( int newStartTime ){
     if (stopped) {
-//        newStartTime = newStartTime + startTime;
         if (newStartTime < 0)
-            newStartTime = 0;
+                newStartTime = 0;
         startTime = newStartTime;
         deltaTime = startTime;
     }
@@ -66,15 +64,11 @@ void counter::stop() {
         }
         else if ( counterType == STOP_WATCH ) {
             startTime = 0;
-    //  endTime = DEFAULT_VOTE_TIME;
             i=1;
         }    
-    //  if (ended) 
         started = false;
         ended = true;
         stopped = true;
-    //  deltaTime = startTime;
-    //  cout << "stopped!!!!!!!!!!!!!" << endl;
 }
 
 int counter::millisToMinutes( uint64_t milliseconds) {
@@ -98,7 +92,7 @@ void counter::draw( ofTrueTypeFont &font, float posX , float posY ) {
         }
             
 
-        if ( (currTime - lastTime) > 1000 /* && (DEFAULT_VOTE_TIME >= lastTime)*/) {
+        if ( (currTime - lastTime) > 1000 ) {
             deltaTime += 1000*i;
             lastTime = currTime;
             ofLogVerbose(__func__) << "startTime: " << startTime;            
@@ -110,15 +104,15 @@ void counter::draw( ofTrueTypeFont &font, float posX , float posY ) {
         int minutes = millisToMinutes(deltaTime);
         if ( minutes < 10 ) spaceMin = " ";
 
-        if ( (deltaTime == endTime && !counterType ) || (ended /*&& counterType*/)) {
-        //if ( deltaTime == 0 && !counterType ) {
+        if ( (deltaTime == endTime && !counterType ) || ended) {
             
-//            endTime = deltaTime;
-            ended = true;
+            if (!ended) {
+                ended = true;
+                ofSendMessage("COUNTDOWN_ENDED");
+            }
             if (semafore) ofSetColor(ofColor::red);
                 if ( i == 30) {
                     semafore = !semafore;
-                    ofLogVerbose(__func__) << "semafore: " << semafore;
                     i = 0;
                 }
             i++;

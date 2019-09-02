@@ -1,13 +1,19 @@
 #include "resultWindow.h"
 
-resultWindow::resultWindow(){
-        ///        arsReciver = new ARS_reciver;
-        };
+resultWindow::resultWindow(){};
 
-resultWindow::~resultWindow(){};
+resultWindow::~resultWindow(){
+
+        delete countDown; //freed memory
+        countDown = NULL; //pointed dangling ptr to NULL
+};
 
 void resultWindow::setup(float scale) {
-	ofTrueTypeFont::setGlobalDpi(72);
+	
+        height = ofGetHeight()/15;
+        width = ( ofGetWidth() - 5*height ) / 2;
+        
+        ofTrueTypeFont::setGlobalDpi(72);
 
         ofTrueTypeFontSettings settings20("verdana.ttf", scale*25);
         settings20.addRange(ofUnicode::Latin);
@@ -34,9 +40,9 @@ void resultWindow::setup(float scale) {
         ttf40.load(settings40);
 
         counterFont.load("verdana.ttf", scale*90);
-        
-        //countDown -> counterType(STOP_WATCH);
         }
+
+
 void resultWindow::update() {
         
         height = ofGetHeight()/15;
@@ -59,7 +65,7 @@ void resultWindow::draw( float x, float y, float scaleW, float scaleH) {
         mainRect = ttf30.getStringBoundingBox("Idő:", 0, 0);
         ttf30.drawString( "Idő:" , 2* width + (5*height - mainRect.width)/2 , (mainRect.height + ofGetWindowHeight()/15)/2 );
 
-        //Draw MainFrame
+        //Draw Date & Time:
         ofSetColor(ofColor::black);
         mainRect = ttf20.getStringBoundingBox( ofGetTimestampString( "%Y.%m.%d " ) + translateDayName(), 0, 0);
         ttf20.drawString( ofGetTimestampString( "%Y.%m.%d " ) + translateDayName() , 2* width + (5*height - mainRect.width)/2 , (mainRect.height + ofGetWindowHeight()/15)/0.8 );
@@ -123,7 +129,15 @@ void resultWindow::setCounterType ( bool stopWatch_button ) {
 void resultWindow::setStartTime ( int newStartTime ) {
         countDown -> setStartTime (  newStartTime );
         }
-        
+
+void resultWindow::reset() {
+        numOfYes = 0;
+        numOfNo = 0;
+        numOfElse = 0;
+        numOfNotVoted = 0;
+        numOfAway = MAX_NUM_VOTERS;
+}
+
 string resultWindow::translateDayName() {
 
             switch(ofGetWeekday()) {

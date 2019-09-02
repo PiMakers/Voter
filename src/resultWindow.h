@@ -1,7 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
-#include "ARS_reciver.h"
+#include "settings.h"
 #include "counter.h"
 
 class resultWindow : public ofBaseApp {
@@ -9,7 +9,7 @@ class resultWindow : public ofBaseApp {
 public:
 
      resultWindow();
-virtual ~resultWindow();
+    ~resultWindow();
 
 
 
@@ -18,6 +18,7 @@ virtual ~resultWindow();
     void draw(float x =0 , float y = 0, float scaleW = 1.0, float scaleH = 1.0);
     void setCounterType ( bool stopWatch_button );
     void setStartTime ( int newStarttime );
+    void reset();
 
     int numOfYes, numOfNo, numOfElse;
     int numOfVoted, numOfNotVoted, numOfAway = MAX_NUM_VOTERS;
@@ -25,6 +26,7 @@ virtual ~resultWindow();
     ofTrueTypeFont ttf20, ttf30, ttf30i, ttf40, counterFont;
 
     counter* countDown = new counter;
+    //counter countDown;
 
     std::string voteMode = "Nyílt";
 

@@ -4,8 +4,6 @@
 #include "ofMain.h"
 #include "settings.h"
 
-// #include "counter.h"
-
 //ARS Reciver VID/PID   /serial
 #define VENDOR_ID 1008
 #define PRODUCT_ID 34836
@@ -27,22 +25,20 @@
 #define     PAUSE_BTN       17
 #define     ESC_BTN         18
 
-#define MAX_NUM_VOTERS 30
+#ifndef MAX_NUM_VOTERS
+    #define MAX_NUM_VOTERS 30
+#endif
 
-// #define NO_OFX
+#include <hidapi.h>    
 
-#include "../hidapi/hidapi/hidapi.h"    
-
-class ARS_reciver : public ofThread {
+class ofxARS_reciver {
 
 public:
 
-     ARS_reciver();
-    ~ARS_reciver();
+     ofxARS_reciver();
+    ~ofxARS_reciver();
 
-//    void setup();
-//    void draw();
-
+    void update();
     void resetVoteResult();
     void drawCounter(ofTrueTypeFont counterFont, float X = 0, float Y = 0 );
     void startCounter();
@@ -56,10 +52,10 @@ public:
         // keypadModelNo??? byte 0-1
         std::string model,  data_mode, data;
         // data_mode byte 2 # 0x67 normal (vote); 0x69 exam (01-99); 0x6e chanel mode???; 0x6c join mode ???
-        unsigned int digits, user_ID, keypad_No;
+        unsigned int keypad_No;
+        int digits, user_ID;
         long long int sent_value;
-        //        bool set;
-       
+        
         void clear () {
             digits = 0,
             user_ID = 0,
@@ -68,7 +64,6 @@ public:
             model = "";
             data_mode = "";
             data.clear();
-        //            set = false;
         }
         
         void printInfo() {
@@ -80,7 +75,6 @@ public:
             cout << "sent_value: " << sent_value << endl;
             cout << "user_ID: " << user_ID << endl;
             cout << "recived data: " << data << endl;
-        //            cout << "set: " << set << endl;
         }
     } KEYPAD;
 
@@ -93,11 +87,10 @@ public:
 
         void clear() {
                 voter_name = "";
-                voterID = -1;// =30;
+                voterID = -1;
                 vote_value = -1;
                 hasVoted = false;
                 registered = false;
-            //  index = -1;
             }
         void clearVoteResult() {
                 vote_value = -1;
@@ -107,34 +100,24 @@ public:
         } VOTE /*, *PVOTE*/;
 
 
-    ///    void drawVote( /*ofTrueTypeFont ttf,*/VOTE vote);
-    
     vector <VOTE> votes;
 
-    VOTE vote; // = new VOTE;
+    VOTE vote;
 
 private:
 
-    // counter cntr;// = new  counter;
-            
     KEYPAD keypad;
     
     hid_device *ARS_device;
 
     typedef unsigned char BUFFER;
-    //BUFFER buff[256];
-    BUFFER* buffer = new BUFFER;
+    BUFFER buffer[63];
     void pharse_data( BUFFER* data );
-
-    //BUFFER buffer;
-    void init();
-    void threadedFunction();
-    void loadNames ();
-//    void pharse_data2( BUFFER* data );
-    
-    //void pharse_data( string &data );
     void handel_data();
-    bool /*isReady, */names_loaded = false;
-    std::string data;
 
+    void init();
+    void loadNames ();
+    
+    bool names_loaded;
+    std::string data;
 };

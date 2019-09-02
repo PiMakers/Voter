@@ -1,34 +1,28 @@
-#pragma once
+#include "ofxARS_reciver.h"
 
 
-#include "ARS_reciver.h"
-
-
- ARS_reciver::ARS_reciver(){
+ ofxARS_reciver::ofxARS_reciver(){
 
     if (hid_init()) {
         ofLogError("HIIIDinit FAILED!!!");
-        exit;
+        return;
     }
     ofLogNotice("ARS STARTED!!!!!!");
-    startThread();
 }
  
- ARS_reciver::~ARS_reciver(){
-    waitForThread();
+ ofxARS_reciver::~ofxARS_reciver() {
     ofLogNotice("ARS EXITED!!!!!!");
-    //delete buffer; //freed memory
-    //buffer = NULL; //pointed dangling ptr to NULL
+    hid_close(ARS_device);
     hid_exit();
 }
 
-void ARS_reciver::init(){
+void ofxARS_reciver::init(){
 
     connected = false;
     hid_close(ARS_device);
-
     ARS_device = hid_open(VENDOR_ID, PRODUCT_ID, NULL);
     if (!ARS_device ){
+        ofLogError(__func__) << "Unable to open ARS device!";
         return;
     }
     // Set the hid_read() function to be non-blocking.
@@ -37,12 +31,12 @@ void ARS_reciver::init(){
     loadNames();
 }
 
-void ARS_reciver::loadNames () {
+void ofxARS_reciver::loadNames () {
     if (!names_loaded) {
         // this is our buffer to strore the text data
-        ofFile name_list("nevek.txt");
-        if (name_list.exists()){
-            ofLogError(__func__) << "data/nevek.txt fájl nem található, vagy sérült!";
+        ofFile name("nevek.txt");
+        if ( !name.exists() ){
+            ofLogError(__func__) << "data/nevek.txt nem található vagy sérült!";
             return;
         }
         ofBuffer names = ofBufferFromFile("nevek.txt");
@@ -71,32 +65,32 @@ void ARS_reciver::loadNames () {
             vote.index = -1;
         }
         else {
-            ofLogError(__func__) << "data/nevek.txt fájl nem található, vagy sérült!";
+            ofLogError(__func__) << "data/nevek.txt nem található vagy sérült!";
             return;
         }
     }
 }
 
-void ARS_reciver::pharse_data( BUFFER* buffer ){
+void ofxARS_reciver::pharse_data( BUFFER* buffer ){
     keypad.clear();
 
     //char str[res];
-    char str[6];
-    for (auto i = 0; i < res; i++) {
+    char str[4];
+    for (int i = 0; i < res; i++) {
         
-        if ( buffer[i] == 0x66 ) { // Data end
+        if ( buffer[i] == 0x66 ) { // ff Data end
             break;
         }
 
         sprintf(str,"%02hx ",buffer[i]);
-                
+
             if ( i == 0 ){
                 keypad.model += str;
             }
             
-            else if ( i == 1 ){
+            else if ( i <= 1 ){
                 
-                keypad.model += str;
+                keypad.model += str;//keypad.data;
                 
                 if (keypad.model.compare("aa 00 ") == 0)
                         keypad.model = "LSK CV RK";
@@ -110,25 +104,25 @@ void ARS_reciver::pharse_data( BUFFER* buffer ){
                 
                 switch ( buffer[i] ) {
 
-                        case 103: // 67
-                            keypad.data_mode = "vote";
-                            break;
-                        case 105: // 69
-                            keypad.data_mode = "exam";
-                            break;
-                        case 108: // 6c
-                            keypad.data_mode = "join";
-                            break;
-                        case 110: // 6e
-                            keypad.data_mode = "channel";
-                            break;
-                        default:
-                            cout << "DATAMODE =" << (int)buffer[i] << endl;
-                            keypad.data_mode = "unknown";
-                            break;
+                    case 0x67:  //103
+                        keypad.data_mode = "vote";
+                        break;
+                    case 0x69:  //105
+                        keypad.data_mode = "exam";
+                        break;
+                    case 0x6c:  //108
+                        keypad.data_mode = "join";
+                        break;
+                    case 0x6e:  //110
+                        keypad.data_mode = "channel";
+                        break;
+                    default:
+                        cout << "DATAMODE =" << (int)buffer[i] << endl;
+                        keypad.data_mode = "unknown";
+                        break;
                 }
             }
-                /// size of databuffer (num of digits)
+            /// size of databuffer (num of digits)
             else if ( i == 3 ) {
                 
                 keypad.digits = /*(int)*/buffer[i];
@@ -163,14 +157,16 @@ void ARS_reciver::pharse_data( BUFFER* buffer ){
             else  if ( buffer[i] != 0 ) /*&& (keypad.data_mode != "command"))*/  { ///Not 00 ;
                             keypad.user_ID = 10*keypad.user_ID + buffer[i]-3*16;
             }
+            else break;
 
             keypad.data += str;
             
     }
+    
     ofSendMessage(keypad.data);
 }
 
-void ARS_reciver::handel_data() {
+void ofxARS_reciver::handel_data() {
     if ( keypad.data_mode.compare("vote") == 0 && vote_started && !vote_ended ) {
 
         for (size_t i = 0; i < votes.size(); i++) {
@@ -205,6 +201,7 @@ void ARS_reciver::handel_data() {
                     if (!vote_started)
                         udArrow++;
                     ofLogNotice(__func__) << "UP_ARROW: " << keypad.sent_value;
+                    ofSendMessage("UP_ARROW");
                     break;
             
             case  DOWN_ARROW :
@@ -259,7 +256,7 @@ void ARS_reciver::handel_data() {
                     ofLogNotice(__func__) << "GRAF_BTN:  " << keypad.sent_value;
                     break;
 
-            case  9 :
+            case  FORM_BTN :
                     
                     ofLogNotice(__func__) << "FORM_BTN: " << keypad.sent_value;
                     break;
@@ -268,29 +265,30 @@ void ARS_reciver::handel_data() {
                     if (!vote_started)
                         stopWatch_button = !stopWatch_button;
                     ofLogNotice(__func__) << "STOP_WATCH_BTN: " << keypad.sent_value;
+                    ofSendMessage("STOP_WATCH_BTN");
                     break;
 
-            case  11 :
+            case  OK_BTN :
                     
                     ofLogNotice(__func__) << "OK_BTN: " << keypad.sent_value;
                     break;
 
-            case  15 :
+            case  DISPLAY_BTN :
                     
                     ofLogNotice(__func__) << "DISPLAY_BTN: " << keypad.sent_value;
                     break;
 
-            case  16 :
+            case  VOTE_BTN :
                 
                 ofLogNotice(__func__) << "VOTE_BTN: " << keypad.sent_value;
                 break;
             
-            case  17 :
+            case  PAUSE_BTN :
                 
                 ofLogNotice(__func__) << "PAUSE_BTN:  " << keypad.sent_value;
                 break;
             
-            case  18 :
+            case  ESC_BTN :
                 
                 ofLogNotice(__func__) << "ESC_BTN" << keypad.sent_value;
                 break;
@@ -338,39 +336,30 @@ void ARS_reciver::handel_data() {
     }
 }
 
-void  ARS_reciver::resetVoteResult() {
+void  ofxARS_reciver::resetVoteResult() {
         for (size_t i = 0; i < votes.size(); i++) {
             votes[i].clearVoteResult();
         }
 }
 
-void ARS_reciver::threadedFunction() {
-///    init();
-    while(isThreadRunning()) {
-
-        if (ARS_device) {
-                res = hid_read(ARS_device, buffer, 8*sizeof(buffer) );
-                // printf("waireading");
-                //res = hid_read(ARS_device, buff, sizeof(buff) );
-            
-            if (res == 0)
-                printf("waiting...\r");
+void ofxARS_reciver::update() {
+    if (ARS_device) {
+        res = hid_read(ARS_device, buffer, sizeof(buffer) );
+                    
+        if (res == 0)
+            printf("waiting...\r");
                 
-            else if (res < 0) {
-                printf("Unable to read!\r");
-                init();
-            }
-            else if ( res >= 1 ) {
-                pharse_data ( buffer );
-                handel_data();
-            }
-        }
-        else {
-            std::cout << "Opening...                  \r";
+        else if (res < 0) {
+            printf("Unable to read!\r");
             init();
         }
-        sleep (200);
+        else if ( res >= 1 ) {
+            pharse_data ( buffer );
+            handel_data();
+        }
     }
-    connected = false;
-    hid_close(ARS_device);
+    else {
+        std::cout << "Opening...                  \r";
+        init();
+    }
 }

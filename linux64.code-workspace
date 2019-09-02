@@ -5,10 +5,10 @@
 		},
 		{
 			"path": "../../openFrameworks"
-		}/*,
+		},
 		{
-			"path": "/mnt/i/DataNTFS/OF/myGitHub/VoterX"
-		}*/
+			"path": "/mnt/LinuxData/OF/myGitHub/MyScripts"
+		}
 	],
 	"settings": {
 		"terminal.integrated.confirmOnExit": true,
@@ -75,8 +75,10 @@
 			"type_traits": "cpp",
 			"tuple": "cpp",
 			"typeinfo": "cpp",
-			"utility": "cpp"
+			"utility": "cpp",
+			"string": "cpp"
 		},
+		"remote.SSH.configFile": "/home/pimaker/.vscode/ssh.config",
 
 	}
 }

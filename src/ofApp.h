@@ -9,9 +9,10 @@
 
 
 #include "ofMain.h"
-#include "ARS_reciver.h"
+#include "settings.h"
+#include "ofxARS_reciver.h"
 #include "resultWindow.h"
-// #include "dataWindow.h"
+//#include "dataWindow.h"
 
 class ofApp: public ofBaseApp
 {
@@ -22,8 +23,9 @@ public:
 	
 	void keyPressed(int key);
 	void windowResized(int w, int h);
+	void gotMessage(ofMessage msg);
 
-	void exit();
+//	void exit();
 /*	
     void keyReleased(int key);
 	void mouseMoved(int x, int y );
@@ -41,14 +43,16 @@ public:
 //	GUI gui;
 
 	resultWindow rWindow;
-    ARS_reciver* arsReciver = new ARS_reciver;
-    counter* cnt = new counter;
-
+    //ARS_reciver arsReciver;// = new ARS_reciver;
+	ofxARS_reciver arsReciver;
+	// dataWindow datawindow;
+    //counter* cnt = new counter;
+	//counter cnt;// = new counter;
 
     float width, height;
     float posX, posY, index = -1;
 
-    ofTrueTypeFont vote_font;
+    // ofTrueTypeFont vote_font;
     ofRectangle boundingBox;
     ofColor color;
 	float scale, scaleW, scaleH;

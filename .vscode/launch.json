@@ -103,6 +103,20 @@
             "windows": {
                 "MIMode": "gdb"
             }
+        },
+        {
+            "name": "Win10 Cross",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "",
+            "pipeTransport": {
+                "pipeCwd": "${workspaceFolder}",
+                "pipeProgram": "ssh",
+                "pipeArgs": [
+                    "highd@192.168.0.59"
+                ],
+                // "debuggerPath": "/home/pi/vsdbg/vsdbg"
+            }
         }
     ]
 }
