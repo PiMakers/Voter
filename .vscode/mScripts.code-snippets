@@ -15,4 +15,13 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+
+	"PrintEnv": {
+		"scope": "cpp,C++",
+		"prefix":"hopp",
+		"body": [
+			"set"
+		],
+		"description": "print enviroment vars"
+	}
 }

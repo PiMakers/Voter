@@ -1,6 +1,6 @@
 #pragma once
+
 #include "ofMain.h"
-#include "counter.h"
 
 #define DEFAULT_VOTE_TIME 30000
 

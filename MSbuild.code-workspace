@@ -1,0 +1,95 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "I:\\DataNTFS\\OF\\openFrameworks"
+		}
+	],
+	"settings": {
+		"terminal.integrated.confirmOnExit": true,
+		"terminal.integrated.copyOnSelection": true,
+		"terminal.integrated.env.linux": {
+			"OF_ROOT": "/mnt/LinuxData/OF/openFrameworks",
+		},
+		"files.associations": {
+			"system_error": "cpp",
+			"iostream": "cpp",
+			"limits": "cpp",
+			"ostream": "cpp",
+			"array": "cpp",
+			"bitset": "cpp",
+			"string_view": "cpp",
+			"initializer_list": "cpp",
+			"utility": "cpp"
+		},
+		//"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+		"terminal.integrated.shell.windows": "C:\\WINDOWS\\system32\\cmd.exe",
+		"terminal.integrated.shellArgs.windows": [
+
+			"call",
+			"C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\VsDevCmd.bat"
+
+		],
+		"terminal.integrated.env.windows": { 
+			 
+			"OF_ROOT": "i:\\DataNTFS\\OF\\openFrameworks",
+			"PATH":"\\%PATH\\%;C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx64\\x64;C:\\Program Files\\LLVM\\bin",
+			//"INCLUDE":"I:\\DataNTFS\\OF\\openFrameworks\\libs\\openFrameworks;I:\\DataNTFS\\OF\\openFrameworks\\libs\\openFrameworks\\utils"
+			/*
+			\
+			C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\IDE\VC\VCPackages; \
+			C:\Program Files (x86)\Microsoft SDKs\TypeScript\3.1; \
+			C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow; \
+			C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer; \
+			C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\Roslyn; \
+			C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Team Tools\Performance Tools; \
+			C:\Program Files (x86)\Microsoft Visual Studio\Shared\Common\VSPerfCollectionTools\; \
+			C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\; \
+			C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x86; \
+			C:\Program Files (x86)\Windows Kits\10\bin\x86; \
+			C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\\MSBuild\15.0\bin; \
+			C:\Windows\Microsoft.NET\Framework\v4.0.30319; \
+			C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\; \
+			C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\; \
+			C:\WINDOWS; \
+			C:\WINDOWS\system32; \
+			C:\WINDOWS\System32\Wbem; \
+			C:\WINDOWS\System32\WindowsPowerShell\v1.0\; \
+			C:\Program Files\dotnet\; \
+			C:\Program Files\Microsoft SQL Server\130\Tools\Binn\; \
+			C:\Program Files\Git\cmd; \
+			C:\WINDOWS\System32\OpenSSH\; \
+			C:\Program Files\LLVM\bin; \
+			C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2017\COMMUNITY\COMMON7\IDE\EXTENSIONS\GITHUB\GITHUB\lib\win32\x86; \
+			C:\WINDOWS; \
+			C:\WINDOWS\system32; \
+			C:\WINDOWS\System32\Wbem; \
+			C:\WINDOWS\System32\WindowsPowerShell\v1.0\; \
+			C:\Program Files\dotnet\; \
+			C:\Program Files\Microsoft SQL Server\130\Tools\Binn\; \
+			C:\Program Files\Git\cmd; \
+			C:\WINDOWS\System32\OpenSSH\; \
+			C:\WINDOWS; \
+			C:\WINDOWS\system32; \
+			C:\WINDOWS\System32\Wbem; \
+			C:\WINDOWS\System32\WindowsPowerShell\v1.0\; \
+			C:\Program Files\dotnet\; \
+			C:\Program Files\Microsoft SQL Server\130\Tools\Binn\; \
+			C:\Program Files\Git\cmd; \
+			C:\WINDOWS\System32\OpenSSH\; \
+			C:\Users\highd\AppData\Local\Programs\Microsoft VS Code\bin; \
+			C:\Users\highd\AppData\Local\Microsoft\WindowsApps; \
+			C:\Users\highd\AppData\Local\Programs\Microsoft VS Code\bin; \
+			C:\Program Files\Git\cmd; \
+			C:\Users\highd\AppData\Local\Programs\Microsoft VS Code\bin; \
+			C:\Users\highd\AppData\Local\Microsoft\WindowsApps; \
+			C:\Users\highd\AppData\Local\Programs\Microsoft VS Code\bin; \
+			C:\Users\highd\.dotnet\tools; \
+			C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin; \
+			C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja"
+			*/
+			} 
+	}
+}

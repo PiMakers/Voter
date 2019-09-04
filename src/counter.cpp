@@ -65,15 +65,15 @@ void counter::stop() {
         }
         else if ( counterType == STOP_WATCH ) {
             startTime = 0;
-//            endTime = DEFAULT_VOTE_TIME;
+    //  endTime = DEFAULT_VOTE_TIME;
             i=1;
         }    
-//        if (ended) 
+    //  if (ended) 
         started = false;
         ended = true;
         stopped = true;
-//        deltaTime = startTime;
-        cout << "stopped!!!!!!!!!!!!!" << endl;
+    //  deltaTime = startTime;
+    //  cout << "stopped!!!!!!!!!!!!!" << endl;
 }
 
 int counter::millisToMinutes( uint64_t milliseconds) {
@@ -94,21 +94,20 @@ void counter::draw( ofTrueTypeFont &font, float posX , float posY ) {
 
         if ( started && !ended ) {
             currTime = ofGetElapsedTimeMillis();
-            //ofLogNotice(__func__) << "currTime: " << currTime;
         }
             
 
         if ( (currTime - lastTime) > 1000 /* && (DEFAULT_VOTE_TIME >= lastTime)*/) {
             deltaTime += 1000*i;
             lastTime = currTime;
-            ofLogNotice(__func__) << "startTime: " << startTime;            
+            ofLogVerbose(__func__) << "startTime: " << startTime;            
         }
 
         int seconds = millisToSeconds(deltaTime);
         spaceSec = spaceMin = "";
         if ( seconds < 10 ) spaceSec = "0";
         int minutes = millisToMinutes(deltaTime);
-        if ( minutes < 10 ) spaceMin = "0";
+        if ( minutes < 10 ) spaceMin = " ";
 
         if ( (deltaTime == endTime && !counterType ) || (ended /*&& counterType*/)) {
         //if ( deltaTime == 0 && !counterType ) {
@@ -117,11 +116,8 @@ void counter::draw( ofTrueTypeFont &font, float posX , float posY ) {
             ended = true;
             if (semafore) ofSetColor(ofColor::red);
                 if ( i == 30) {
-
-          //      else ofSetColor(ofColor::black);
                     semafore = !semafore;
                     ofLogVerbose(__func__) << "semafore: " << semafore;
-
                     i = 0;
                 }
             i++;

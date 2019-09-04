@@ -1,20 +1,26 @@
 {
     "configurations": [
         {
-            "name": "Linux",
+            "name": "Win32",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "windowsSdkVersion": "10.0.17763.0",
+            "intelliSenseMode": "msvc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
             "includePath": [
                 "${workspaceFolder}",
                 "${workspaceFolder}/../../openFrameworks/libs/openFrameworks",
+                "${workspaceFolder}/../../openFrameworks/libs/openFrameworks/types/**",
                 "${workspaceFolder}/../../openFrameworks/addons/**",
                 "${workspaceFolder}/local_addons/**",
-                "/usr/include/**",
-                "/usr/lib/x86_64-linux-gnu/glib-2.0/include"
-            ],
-            "defines": [],
-            "compilerPath": "/usr/bin/gcc",
-            "cStandard": "c11",
-            "cppStandard": "c++14",
-            "intelliSenseMode": "clang-x64"
+                "$(OF_ROOT)\\libs\\openFrameworks",
+                "I:\\DataNTFS\\OF\\openFrameworks\\libs\\openFrameworks"
+            ]
         }
     ],
     "version": 4

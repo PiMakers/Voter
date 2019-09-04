@@ -13,9 +13,9 @@ virtual ~resultWindow();
 
 
 
-    void setup();
+    void setup(float scale = 1.0);
     void update();
-    void draw(float x =0 , float y = 0);
+    void draw(float x =0 , float y = 0, float scaleW = 1.0, float scaleH = 1.0);
     void setCounterType ( bool stopWatch_button );
     void setStartTime ( int newStarttime );
 
@@ -35,11 +35,12 @@ private:
     float height;
     ofRectangle mainRect, stringBoundingBox;
 
+    string translateDayName();
+
     enum VOTE_MODE{
         OPEN,
         SECRET
     };
 
-    std::string title1;// = "Nyilt" + "szavazás:", 
-    std::string title2 = "Statisztika:";
+    std::string title;
 };

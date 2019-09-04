@@ -2,6 +2,157 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "build (Clang)",
+            "type": "shell",
+            "promptOnClose": true,
+            "group": "build",
+            "windows": {
+                "command": "clang-cl",
+                "args": [
+                    "/I%OF_ROOT%/libs/openFrameworks",
+                    "/I%OF_ROOT%/libs/openFrameworks/3d",
+                    "/I%OF_ROOT%/libs/openFrameworks/app",
+                    "/I%OF_ROOT%/libs/openFrameworks/communication",
+                    "/I%OF_ROOT%/libs/openFrameworks/events",
+                    "/I%OF_ROOT%/libs/openFrameworks/gl",
+                    "/I%OF_ROOT%/libs/openFrameworks/graphics",
+                    "/I%OF_ROOT%/libs/openFrameworks/math",
+                    "/I%OF_ROOT%/libs/openFrameworks/sound",
+                    "/I%OF_ROOT%/libs/openFrameworks/types",
+                    "/I%OF_ROOT%/libs/openFrameworks/utils",
+                    "/I%OF_ROOT%/libs/openFrameworks/video",
+                    //OF noncore
+                    "/I%OF_ROOT%/libs/boost/include",
+                    "/I%OF_ROOT%/libs/cairo/include/cairo",
+                    "/I%OF_ROOT%/libs/fmodex/include",
+                    "/I%OF_ROOT%/libs/glew/include",
+                    "/I%OF_ROOT%/libs/glm/include",
+                    "/I%OF_ROOT%/libs/json/include",
+                    "/I%OF_ROOT%/libs/tess2/include",
+                    "/I%OF_ROOT%/libs/utf8/include",
+                    "/I%OF_ROOT%/libs/pugixml/include",
+                    "/I%OF_ROOT%/libs/videoinput/include",
+
+                    "/I%OF_ROOT%/addons/ofxPoco",
+
+                    "/Ilocal_addons/ofxHID/src",
+                    "/Ilocal_addons/ofxIO/src",
+
+                    //DEFINES
+                    
+                    "/MP",
+                    "/GS",
+                    "/TP",
+                    "/W3",
+                    "/Zc:wchar_t",
+                    "/Zi",
+                    "/Gm-",
+                    "/Od",
+                    //"/Fd"obj\x64\Debug\vc141.pdb","
+                    "/Zc:inline",
+                    "/fp:precise",
+                    "/DWIN32",
+                    "/D_DEBUG",
+                    "/D_CONSOLE",
+                    "/DPOCO_STATIC",
+                    "/DCAIRO_WIN32_STATIC_BUILD",
+                    "/DDISABLE_SOME_FLOATING_POINT",
+                    "/DCURL_STATICLIB",
+                    "/D_UNICODE",
+                    "/DUNICODE",
+                    "/errorReport:prompt",
+                    "/WX-",
+                    "/Zc:forScope",
+                    "/RTC1",
+                    "/Gd",
+                    "/MDd",
+                    "/FC",
+                    // /Fa"obj\x64\Debug\"
+                    "/EHsc",
+                    "/nologo",
+                    // /Fo"obj\x64\Debug\" /Fp"obj\x64\Debug\VoterX_debug.pch" 
+                    "/diagnostics:classic",
+                    "src/main.cpp"
+                ],
+                "options": {}
+            },
+            "linux": {
+                "command": "bash"
+            },
+            "args": [
+                "-c",
+                "make"
+            ],
+            "problemMatcher": [],
+            "options": {}
+        }
+        {
+            "label": "msvc build",
+            "type": "shell",
+            "command": "cl.exe",
+            "args": [
+                "/IC:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Tools/MSVC/14.16.27023/include",
+                "/I%OF_ROOT%/libs/openFrameworks",
+                
+                "/I%OF_ROOT%/libs/openFrameworks/3d",
+                "/I%OF_ROOT%/libs/openFrameworks/app",
+                "/I%OF_ROOT%/libs/openFrameworks/communication",
+                "/I%OF_ROOT%/libs/openFrameworks/events",
+                "/I%OF_ROOT%/libs/openFrameworks/gl",
+                "/I%OF_ROOT%/libs/openFrameworks/graphics",
+                "/I%OF_ROOT%/libs/openFrameworks/math",
+                "/I%OF_ROOT%/libs/openFrameworks/sound",
+                "/I%OF_ROOT%/libs/openFrameworks/types",
+                "/I%OF_ROOT%/libs/openFrameworks/utils",
+                "/I%OF_ROOT%/libs/openFrameworks/video",
+                //OF noncore
+                "/I%OF_ROOT%/libs/boost/include",
+                "/I%OF_ROOT%/libs/cairo/include/cairo",
+                "/I%OF_ROOT%/libs/fmodex/include",
+                "/I%OF_ROOT%/libs/glew/include",
+                "/I%OF_ROOT%/libs/glm/include",
+                "/I%OF_ROOT%/libs/json/include",
+                "/I%OF_ROOT%/libs/tess2/include",
+                "/I%OF_ROOT%/libs/utf8/include",
+                "/I%OF_ROOT%/libs/pugixml/include",
+                "/I%OF_ROOT%/libs/videoinput/include",
+                //Addons (local)
+                "/Ilocal_addons/ofxHID/src",
+                "/Ilocal_addons/ofxHID/libs/ofxHID/include",
+                "/Ilocal_addons/ofxHID/libs/hidapi/include",
+                "/Ilocal_addons/ofxIO/src",
+                "/Ilocal_addons/ofxIO/libs/ofxIO/include",
+                
+                //Core
+                "/I../../openFrameworks/addons/ofxPoco/libs/poco/include",
+                
+                "/IC:/Program Files (x86)/Windows Kits/10/include/10.0.17763.0/winrt",
+                "/IC:/Program Files (x86)/Windows Kits/10/include/10.0.17763.0/cppwinrt",
+                "/IC:/Program Files (x86)/Windows Kits/10/include/10.0.17763.0/um",
+                "/IC:/Program Files (x86)/Windows Kits/10/include/10.0.17763.0/shared",
+
+                //"/link: ",
+                "/I%OF_ROOT%/libs/boost/lib/vs/x64",
+                //INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;
+                "/MDd",
+                "/EHsc",
+                "/Zi",
+                "/Fe:",
+                "MsVote.exe",
+                "src/main.cpp",
+//                "/link:",
+//                "/NODEFAULTLIB:libcmt"
+            ],
+            "group":  {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal":"always"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
             "label": "build (Release)",
             "type": "shell",
             "promptOnClose": true,
@@ -36,7 +187,7 @@
                 "-c",
                 "make && make RunRelease"
             ],
-            "problemMatcher": []
+            "problemMatcher": [],
         },
         {
             "label": "build (Debug)",
@@ -116,3 +267,5 @@
         }
     ]
 }
+
+//C:/"Program Files (x86)"/"Microsoft Visual Studio"/2017/Community/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe /MP /GS /TP /W3 /Zc:wchar_t /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks\graphics" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks\app" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks\sound" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks\utils" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks\communication" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks\video" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks\types" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks\math" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks\3d" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks\gl" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openFrameworks\events" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\glm\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\rtAudio\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\quicktime\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\freetype\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\freetype\include\freetype2" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\freeImage\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\fmodex\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\videoInput\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\glew\include"  /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\glu\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\tess2\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\cairo\include\cairo" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\glfw\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\openssl\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\utf8\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\boost\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\json\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\curl\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\uriparser\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\libs\pugixml\include" /I"Z:\OF\openFrameworks\libs\openFrameworksCompiled\project\vs\\..\..\..\..\\addons" /I"src" /I"local_addons\ofxHidapi\libs" /I"local_addons\ofxHidapi\libs\hidapi" /I"local_addons\ofxHidapi\src" /Zi /Gm- /Od /FS /Zc:inline /fp:precise /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "POCO_STATIC" /D "CAIRO_WIN32_STATIC_BUILD" /D "DISABLE_SOME_FLOATING_POINT" /D "CURL_STATICLIB" /D "_UNICODE" /D "UNICODE" /errorReport:prompt /WX- /Zc:forScope /RTC1 /Gd /MDd /FC /EHsc /nologo /Fo"obj\x64\Debug" /Fp"obj\x64\Debug\Voter_debug.pch" /diagnostics:classic /Fe: "helloworld.exe" src\main.cpp

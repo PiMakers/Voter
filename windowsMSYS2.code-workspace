@@ -1,0 +1,48 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "I:\\DataNTFS\\OF\\openFrameworks"
+		},
+		{
+			"path": "I:\\DataNTFS\\OF\\GitHub\\hidapi"
+		}
+	],
+	"settings": {
+		"terminal.integrated.confirmOnExit": true,
+		"terminal.integrated.copyOnSelection": true,
+		"files.associations": {
+			"system_error": "cpp",
+			"iostream": "cpp",
+			"limits": "cpp",
+			"ostream": "cpp",
+			"array": "cpp",
+			"bitset": "cpp",
+			"string_view": "cpp",
+			"initializer_list": "cpp",
+			"utility": "cpp"
+			},
+		/*Linux*/
+		"terminal.integrated.env.linux": {
+			"OF_ROOT": "/mnt/LinuxData/OF/openFrameworks",
+		},
+		/*Windows*/
+		"terminal.integrated.shell.windows": "D:\\msys64\\msys2_shell.cmd", 
+		"terminal.integrated.shellArgs.windows": ["-mingw32 -no-start"],
+		"terminal.integrated.env.windows": { 
+			 "MSYSTEM": "MINGW32", 
+			 "CHERE_INVOKING":"1",
+			 "OF_ROOT": "i:/DataNTFS/OF/openFrameworks"
+			}
+	},
+	"extensions": {
+
+	},
+	"remoteAuthority": "",
+	"launch": {
+		"configurations": [],
+		"compounds": []
+	}
+}

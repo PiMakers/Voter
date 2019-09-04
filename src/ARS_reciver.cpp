@@ -18,46 +18,7 @@
 
          ARS_device.close();
      }
- };
-/*
-void ARS_reciver::setup() {
-
-	ttf20.load("verdana.ttf", 10, true, true);
-    ttf20.setLineHeight(18.0f);
-	ttf20.setLetterSpacing(1.037);
-
-
-    //        ofTrueTypeFont::setGlobalDpi(72);
-    while (!ttf20.isLoaded()) {
-
-    ofTrueTypeFontSettings settings("verdana.ttf", 10);
-    settings.addRange(ofUnicode::LatinA);
-    ttf20.load(settings);
-    ttf20.drawString( "BBBBBBBBBBBBBRRRRRRR" , 300, 500);
-    sleep (500);
-
-    }
-    
-        vote_font.load("verdana.ttf", 10); //, true, true);
-        vote_font.setLineHeight(18.0f);
-        vote_font.setLetterSpacing(1.037);
-
-    ofLogError(__func__);
-    sleep (500);
-    }
-    
-}
-
-void ARS_reciver::draw() {
-    //    if (votes.size() == MAX_NUM_VOTERS)
-        for (size_t i = 0; i < votes.size(); i++) {
-            VOTE v = votes[i];
-        drawVote (ttf20,  v);
-        cout << "NAME: " << votes[i].voter_name << endl;
-        }
-
-}
-*/
+ }
 
 void ARS_reciver::init(){
 
@@ -71,7 +32,7 @@ void ARS_reciver::init(){
             #ifndef WIN32
                 std::cout << device.toJSON().dump(4) << std::endl;
             #endif
-            std::cout << "Connected!" << std::endl;
+            ofLogNotice() << "Connected!" << std::endl;
             connected = true;
             // Only The first dev catch !!!
             //TODO: handle multiply ARS devices
@@ -81,7 +42,7 @@ void ARS_reciver::init(){
     
         // this is our buffer to strore the text data
     ofBuffer names = ofBufferFromFile("nevek.txt");
-    cout << "names.size(): " << names.size() << "\t\tnames_loaded: " << names_loaded << endl;    
+    ofLogVerbose() << "names.size(): " << names.size() << "\t\tnames_loaded: " << names_loaded << endl;    
     if( names.size() && !names_loaded ) {
         vector <string> data;
 
@@ -106,17 +67,14 @@ void ARS_reciver::init(){
         }
         names_loaded = true;
         vote.index = -1;
-    //        sleep(5000);
-    //        if ( !ttf20.isLoaded() ) setup();
     }
-
 }
 
 void ARS_reciver::pharse_data( BUFFER buffer ){
                 
     keypad.clear();
-    char str[res];
-     
+    //char str[res];
+    char str[63];
     for (auto i = 0; i < res; i++) {
         
         if ( buffer[i] == 0x66 ) { // Data end
@@ -204,7 +162,7 @@ void ARS_reciver::pharse_data( BUFFER buffer ){
 }
 
 void ARS_reciver::handel_data() {
-    if ( keypad.data_mode.compare("vote") == 0 && vote_started ) {
+    if ( keypad.data_mode.compare("vote") == 0 && vote_started && !vote_ended ) {
 
         for (size_t i = 0; i < votes.size(); i++) {
 
@@ -398,7 +356,7 @@ void ARS_reciver::threadedFunction() {
         }
         else 
         {
-            std::cout << "OPENING...." << std::endl;
+            std::cout << "Opening...\r";
             init();
         }
         sleep (200);

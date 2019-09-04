@@ -15,7 +15,6 @@ void ofApp::setup()
 {
         ofTrueTypeFont::setGlobalDpi(72);
         rWindow.setup();
-//        datawindow.setup();
 //        rWindow.voteMode = "Titkos";
 }
 
@@ -26,24 +25,25 @@ void ofApp::update() {
         height = ofGetWindowHeight()/15;
         
         if (arsReciver -> connected) {
-
-
-
                 
             if (arsReciver -> vote_started ) {
                         if (arsReciver -> vote_ended)
                                 rWindow.countDown -> ended = true;
-                                
+                        
+                        else if (rWindow.countDown -> ended)
+                                    arsReciver -> vote_ended = true;
+                        
                         if ( !rWindow.countDown -> isStarted() ) {
-
                                 rWindow.countDown -> start();
                         }
+                        
 
             }
             
             else  if ( rWindow.countDown -> isStarted() && rWindow.countDown -> ended) {
                         arsReciver -> resetVoteResult();
                         rWindow.countDown -> stop();
+                        
                 }
                 
             if (rWindow.countDown -> stopped) {
@@ -70,7 +70,6 @@ void ofApp::update() {
 void ofApp::draw() {
 
     rWindow.draw();
-
     if (arsReciver -> connected) {
 
         if (!arsReciver -> vote_started) {
@@ -96,27 +95,25 @@ void ofApp::draw() {
 
             if ( arsReciver -> votes[i].registered ) {
             	rWindow.numOfAway--;
+
+                if ( rWindow.countDown -> isStarted()) {
+                    if ( arsReciver -> votes[i].vote_value == 1 ) {
+                            rWindow.numOfYes++;
+                        if ( rWindow.countDown -> ended && (rWindow.voteMode.compare("Nyílt") == 0))
+                                color = ofColor::green;
+                    }
+                    else if ( arsReciver -> votes[i].vote_value == 2 ) {
+                        rWindow.numOfNo++;
+                        if ( rWindow.countDown -> ended && (rWindow.voteMode.compare("Nyílt") == 0))
+                            color = ofColor::red;
+                    }
+                    else if ( arsReciver -> votes[i].vote_value == 3 ) {
+                        rWindow.numOfElse++;
+                        if ( rWindow.countDown -> ended && (rWindow.voteMode.compare("Nyílt") == 0))
+                            color = ofColor::white;
+                    }
+                }    
             }
-
-            //if ( arsReciver -> vote_started ){
-            if ( rWindow.countDown -> isStarted()) {
-                if ( arsReciver -> votes[i].vote_value == 1 ) {
-                    	rWindow.numOfYes++;
-                    if ( rWindow.countDown -> ended && (rWindow.voteMode.compare("Nyílt") == 0))
-                        	color = ofColor::green;
-                }
-                else if ( arsReciver -> votes[i].vote_value == 2 ) {
-                    rWindow.numOfNo++;
-                    if ( rWindow.countDown -> ended && (rWindow.voteMode.compare("Nyílt") == 0))
-                        color = ofColor::red;
-                }
-                else if ( arsReciver -> votes[i].vote_value == 3 ) {
-                    rWindow.numOfElse++;
-                    if ( rWindow.countDown -> ended && (rWindow.voteMode.compare("Nyílt") == 0))
-                        color = ofColor::white;
-                }
-            }    
-
             if (rWindow.voteMode.compare("Nyílt") == 0) {
                         
                 posX = (int)(arsReciver -> votes[i].index )/10; // tizesek -> sor
@@ -125,6 +122,7 @@ void ofApp::draw() {
                 posX = posX * width;
                 posY = (5 + posY)*height;
 
+                //Vote Color (yes:green; no:red; excluded: white)
                 ofFill();
                 ofSetColor (color);
                 ofDrawRectangle (posX, posY, width, height );
@@ -173,6 +171,22 @@ void ofApp::draw() {
             }
         }
     }
+    else {
+        
+        if (semafore) {
+            ofFill();
+            ofSetColor(ofColor::red);
+        //  ofDrawCircle(ofGetWidth()/3, ofGetHeight()*2/3, scale*100);
+            boundingBox = rWindow.ttf30i.getStringBoundingBox("Csatlakoztassa  vevőegységet !", 0,0);
+            rWindow.ttf30i.drawString( "Csatlakoztassa  vevőegységet !", ofGetWidth()/2 - 0.5*boundingBox.width, ofGetHeight()*2/3 + 0.5*boundingBox.height);
+        }
+        
+        if ( i == 30) {
+            semafore = !semafore;
+            i = 0;
+        }
+        i++;
+    }
 //    arsReciver -> drawCounter(rWindow.counterFont, 200,200);
 //    datawindow.drawCirculeGraaf();
 }
@@ -214,4 +228,16 @@ void ofApp::exit() {
                 delete arsReciver;
                 arsReciver = NULL;
         }
+}
+
+//--------------------------------------------------------------
+void ofApp::windowResized(int w, int h){
+
+    scaleW=(float)w/1920;
+    scaleH=(float)h/1080;
+    scale = min(scaleW, scaleH);
+    
+    ofLogVerbose() << "   scale = " << scale;
+    
+    rWindow.setup(scale);
 }
