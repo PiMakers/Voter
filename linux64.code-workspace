@@ -4,15 +4,11 @@
 			"path": "."
 		},
 		{
-<<<<<<< HEAD
 			"path": "/mnt/i/DataNTFS/OF/openFrameworks"
 		},
 		{
 			"name":"OF_Win",
 			"path": "I:\\DataNTFS\\OF\\openFrameworks"
-=======
-			"path": "../../openFrameworks"
->>>>>>> 244e5bf35d618025ec164b14df9fd570077e8f27
 		}
 	],
 	"settings": {
