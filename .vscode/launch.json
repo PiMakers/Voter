@@ -1,7 +1,26 @@
 {
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "name": "Debug (Win)",
+            "type": "cppdbg",
+            "request": "launch",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "preLaunchTask": "build (Debug)",
+            "linux": {
+                "MIMode": "gdb"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "program": "${workspaceFolder}/Voter.exe",
+                "MIMode": "gdb"
+            }
+        },
         {
             "name": "Debug (make)",
             "type": "cppdbg",

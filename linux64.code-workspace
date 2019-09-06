@@ -21,7 +21,8 @@
 		/* Windows */
 		"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
 		"terminal.integrated.env.windows": {
-			"OF_ROOT": "i:\\DataNTFS\\OFopenFrameworks"
+			"OF_ROOT": "I:\\DataNTFS\\OFopenFrameworks",
+			"PATH":"C:\\WINDOWS\\System32"
 		},
 		
 		"files.associations": {

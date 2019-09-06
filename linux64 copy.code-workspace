@@ -1,0 +1,85 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../openFrameworks"
+		},
+		{
+			"path": "/mnt/LinuxData/OF/myGitHub/MyScripts"
+		}
+	],
+	"settings": {
+		"terminal.integrated.confirmOnExit": true,
+		"terminal.integrated.copyOnSelection": true,
+		"terminal.integrated.enableBell": true,
+		/*linux*/
+		"terminal.integrated.env.linux": {
+			"OF_ROOT": "/mnt/LinuxData/OF/openFrameworks",
+		},
+		/* Windows */
+		"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+		"terminal.integrated.env.windows": {
+			"OF_ROOT": "i:\\DataNTFS\\OFopenFrameworks",
+			"PATH":"C:\\WINDOWS\\System32"
+		},
+		
+		"files.associations": {
+			"system_error": "cpp",
+			"iostream": "cpp",
+			"limits": "cpp",
+			"ostream": "cpp",
+			"cctype": "cpp",
+			"clocale": "cpp",
+			"cmath": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"array": "cpp",
+			"atomic": "cpp",
+			"*.tcc": "cpp",
+			"bitset": "cpp",
+			"chrono": "cpp",
+			"codecvt": "cpp",
+			"condition_variable": "cpp",
+			"cstdint": "cpp",
+			"deque": "cpp",
+			"list": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"vector": "cpp",
+			"exception": "cpp",
+			"filesystem": "cpp",
+			"string_view": "cpp",
+			"fstream": "cpp",
+			"functional": "cpp",
+			"initializer_list": "cpp",
+			"iomanip": "cpp",
+			"iosfwd": "cpp",
+			"istream": "cpp",
+			"memory": "cpp",
+			"mutex": "cpp",
+			"new": "cpp",
+			"optional": "cpp",
+			"ratio": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"thread": "cpp",
+			"cinttypes": "cpp",
+			"type_traits": "cpp",
+			"tuple": "cpp",
+			"typeinfo": "cpp",
+			"utility": "cpp",
+			//"string": "cpp"
+		},
+		"remote.SSH.configFile": "/home/pimaker/.vscode/ssh.config",
+
+	}
+}

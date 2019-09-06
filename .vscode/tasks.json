@@ -46,16 +46,73 @@
                 "isDefault": true
             },
             "windows": {
-                "command": "bash"
+                "command": "set",
+                /*
+                "command": "cl.exe",
+                
+                "args": [
+                    //CORE:
+                    "/I%OF_ROOT%/libs/openFrameworks",
+                    "/I%OF_ROOT%/libs/openFrameworks/3d",
+                    "/I%OF_ROOT%/libs/openFrameworks/app",
+                    "/I%OF_ROOT%/libs/openFrameworks/communication",
+                    "/I%OF_ROOT%/libs/openFrameworks/events",
+                    "/I%OF_ROOT%/libs/openFrameworks/gl",
+                    "/I%OF_ROOT%/libs/openFrameworks/graphics",
+                    "/I%OF_ROOT%/libs/openFrameworks/math",
+                    "/I%OF_ROOT%/libs/openFrameworks/sound",
+                    "/I%OF_ROOT%/libs/openFrameworks/types",
+                    "/I%OF_ROOT%/libs/openFrameworks/utils",
+                    "/I%OF_ROOT%/libs/openFrameworks/video",
+                    //NON CORE:
+                    "/I%OF_ROOT%/libs/boost/include",
+                    "/I%OF_ROOT%/libs/cairo/include/cairo",
+                    "/I%OF_ROOT%/libs/curl",
+                    "/I%OF_ROOT%/libs/fmodex/include",
+                    "/I%OF_ROOT%/libs/FreeImage",
+                    "/I%OF_ROOT%/libs/freetype",
+                    "/I%OF_ROOT%/libs/glew/include",
+                    "/I%OF_ROOT%/libs/glfw",
+                    "/I%OF_ROOT%/libs/glm/include",
+
+                    "/I%OF_ROOT%/libs/json/include",
+                    "/I%OF_ROOT%/libs/kiss",
+                    "/I%OF_ROOT%/libs/liusb",
+                    "/I%OF_ROOT%/libs/openssl",
+                    "/I%OF_ROOT%/libs/pugixml/include",
+                    "/I%OF_ROOT%/libs/rtAudio",
+                    "/I%OF_ROOT%/libs/tess2/include",
+                    "/I%OF_ROOT%/libs/uriparser",
+                    "/I%OF_ROOT%/libs/utf8/include",
+                    "/I%OF_ROOT%/libs/videoinput/include",
+
+                    "/Ilocal_addons/ofxHidapi/src",
+                    "/Ihidapi",
+
+                    //"/MDd",
+                    "/MDd","/EHsc","/MP","/GS","/TP","/W3","/Zc:wchar_t",
+                    "/Zi","/Gm-","/Od","/nologo","/Gd", "/FC",
+                    //Fd"obj\x64\Debug\vc141.pdb"
+                    "/Zc:inline","/fp:precise",
+                    "/DWIN32", "/D_DEBUG", "/D_CONSOLE", "/DPOCO_STATIC", "/DCAIRO_WIN32_STATIC_BUILD",
+                    "/DDISABLE_SOME_FLOATING_POINT", "/DCURL_STATICLIB", "/D_UNICODE", "/DUNICODE", "/errorReport:prompt",
+                    "/WX-", "/Zc:forScope", "/RTC1",
+                    //Fa"obj\x64\Debug\" /Fo"obj\x64\Debug\" /Fp"obj\x64\Debug\VoterX_debug.pch"
+                    "/diagnostics:classic",
+                    "src/main.cpp",
+                ]*/
             },
             "linux": {
-                "command": "bash"
+                "command": "bash",
+                "args": [
+                    "-c",
+                    "'make Debug'"
+                ]
             },
-            "args": [
-                "-c",
-                "'make Debug'"
-            ],
-            "problemMatcher": []
+            "problemMatcher": [],
+            "presentation": {
+                "reveal":"always"
+            },
         },
         {
             "label": "clean (Release)",

@@ -29,7 +29,7 @@
     #define MAX_NUM_VOTERS 30
 #endif
 
-#include <hidapi.h>    
+#include "hidapi/hidapi.h"
 
 class ofxARS_reciver {
 

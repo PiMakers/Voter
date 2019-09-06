@@ -87,4 +87,5 @@ msys2:
 vs:
 	# ADDON_CFLAGS = -DPOCO_STATIC
 	# ADDON_CFLAGS += -DPOCO_NO_AUTOMATIC_LIBS
-	# ADDON_LIBS += iphlpapi.lib
+	ADDON_INCLUDES += ../../hidapi
+	ADDON_LIBS += lib/vs/x64/hidapi.lib
